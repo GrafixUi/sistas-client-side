@@ -114,7 +114,7 @@ const BlogGrid = ({ show, wide }) => {
         {
             id: 2,
             title: "Essential Qualities of Highly Successful Music",
-            img: "blog-13.png",
+            img: "blog-8.png",
             category: "Global",
             views: 126,
             date: "25 April 2021",
@@ -123,7 +123,7 @@ const BlogGrid = ({ show, wide }) => {
         {
             id: 2,
             title: "Essential Qualities of Highly Successful Music",
-            img: "blog-14.png",
+            img: "blog-5.png",
             category: "Global",
             views: 126,
             date: "25 April 2021",
@@ -132,7 +132,7 @@ const BlogGrid = ({ show, wide }) => {
         {
             id: 2,
             title: "Essential Qualities of Highly Successful Music",
-            img: "blog-15.png",
+            img: "blog-1.png",
             category: "Global",
             views: 126,
             date: "25 April 2021",

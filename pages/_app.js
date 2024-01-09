@@ -14,7 +14,6 @@ import "swiper/css/navigation";
 import StorageWrapper from "../components/ecommerce/storage-wrapper";
 import "../public/assets/css/main.css";
 import store from "../redux/store";
-import Preloader from "./../components/elements/Preloader";
 
 
 function MyApp({ Component, pageProps }) {
@@ -31,17 +30,13 @@ function MyApp({ Component, pageProps }) {
     }, []);
     return (
         <>
-            {!loading ? (
-                <Provider store={store}>
-                    <StorageWrapper>
-                       
-                            <Component {...pageProps} />
-                            <ToastContainer />
-                    </StorageWrapper>
-                </Provider>
-            ) : (
-                <Preloader />
-            )}
+            <Provider store={store}>
+                <StorageWrapper>
+
+                    <Component {...pageProps} />
+                    <ToastContainer />
+                </StorageWrapper>
+            </Provider>
         </>
     );
 }

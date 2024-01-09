@@ -5,12 +5,7 @@ const BlogFilter = () => {
         <>
             <div className="totall-product">
                                         <h2>
-                                            <img
-                                                className="w-36px mr-10"
-                                                src="/assets/imgs/theme/icons/category-1.svg"
-                                                alt=""
-                                            />
-                                            Recips Articles
+                                            Grid
                                         </h2>
                                     </div>
                                     <div className="sort-by-product-area">

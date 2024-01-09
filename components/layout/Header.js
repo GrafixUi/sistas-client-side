@@ -438,7 +438,7 @@ const Header = ({
                                     <nav>
                                         <ul>
                                             <li className="hot-deals">
-                                                <img style={{color:"black"}}
+                                                <img style={{ color: "black" }}
                                                     src="/assets/imgs/theme/icons/icon-hot.svg"
                                                     alt="hot deals"
                                                 />
@@ -759,7 +759,7 @@ const Header = ({
                                                 </ul> */}
                                             </li>
                                             <li>
-                                                <Link href="/#">
+                                                <Link href="/blog">
                                                     <a>
                                                         Blog
                                                         {/* <i className="fi-rs-angle-down"></i> */}
@@ -913,7 +913,10 @@ const Header = ({
                             </div>
 
                             <div className="header-action-icon-2 d-block d-lg-none">
-                                <div className="burger-icon burger-icon-white">
+                                <div
+                                    className="burger-icon burger-icon-white"
+                                    onClick={toggleClick}
+                                >
                                     <span className="burger-icon-top"></span>
                                     <span className="burger-icon-mid"></span>
                                     <span className="burger-icon-bottom"></span>
@@ -1046,16 +1049,6 @@ const Header = ({
                                                     </Link>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <div className="header-action-icon-2 d-block d-lg-none">
-                                        <div
-                                            className="burger-icon burger-icon-white"
-                                            onClick={toggleClick}
-                                        >
-                                            <span className="burger-icon-top"></span>
-                                            <span className="burger-icon-mid"></span>
-                                            <span className="burger-icon-bottom"></span>
                                         </div>
                                     </div>
                                 </div>
