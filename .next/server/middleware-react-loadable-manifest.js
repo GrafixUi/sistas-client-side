@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST={"page-contact.js -> ../components/elements/Gmap":{id:3648,files:["static/chunks/0b7b90cd.0b65b055582c2340.js","static/css/c55bebb9b8f38d01.css","static/chunks/648.23f5e167c79cec11.js"]}};
