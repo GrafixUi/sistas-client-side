@@ -136,17 +136,6 @@ function Contact() {
                             })
                         })
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
-                        className: "container mb-50 d-none d-md-block",
-                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: "border-radius-15 overflow-hidden",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                id: "map-panes",
-                                className: "leaflet-map",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Gmap, {})
-                            })
-                        })
-                    }),
                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: "container",
                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -156,112 +145,8 @@ function Contact() {
                                 children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
                                     className: "mb-50",
                                     children: [
-                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                            className: "row mb-60",
-                                            children: [
-                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                    className: "col-md-4 mb-4 mb-md-0",
-                                                    children: [
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                                            className: "mb-15 text-brand",
-                                                            children: "Office"
-                                                        }),
-                                                        "205 North Michigan Avenue, Suite 810",
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                        "Chicago, 60601, USA",
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("abbr", {
-                                                            title: "Phone",
-                                                            children: "Phone:"
-                                                        }),
-                                                        " (123) 456-7890",
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("abbr", {
-                                                            title: "Email",
-                                                            children: "Email: "
-                                                        }),
-                                                        "contact@Evara.com",
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                                                            className: "btn btn-sm font-weight-bold text-white mt-20 border-radius-5 btn-shadow-brand hover-up",
-                                                            children: [
-                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                                    className: "fi-rs-marker mr-5"
-                                                                }),
-                                                                "View map"
-                                                            ]
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                    className: "col-md-4 mb-4 mb-md-0",
-                                                    children: [
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                                            className: "mb-15 text-brand",
-                                                            children: "Studio"
-                                                        }),
-                                                        "205 North Michigan Avenue, Suite 810",
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                        "Chicago, 60601, USA",
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("abbr", {
-                                                            title: "Phone",
-                                                            children: "Phone:"
-                                                        }),
-                                                        " (123) 456-7890",
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("abbr", {
-                                                            title: "Email",
-                                                            children: "Email: "
-                                                        }),
-                                                        "contact@Evara.com",
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                                                            className: "btn btn-sm font-weight-bold text-white mt-20 border-radius-5 btn-shadow-brand hover-up",
-                                                            children: [
-                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                                    className: "fi-rs-marker mr-5"
-                                                                }),
-                                                                "View map"
-                                                            ]
-                                                        })
-                                                    ]
-                                                }),
-                                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                    className: "col-md-4",
-                                                    children: [
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
-                                                            className: "mb-15 text-brand",
-                                                            children: "Shop"
-                                                        }),
-                                                        "205 North Michigan Avenue, Suite 810",
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                        "Chicago, 60601, USA",
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("abbr", {
-                                                            title: "Phone",
-                                                            children: "Phone:"
-                                                        }),
-                                                        " (123) 456-7890",
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("abbr", {
-                                                            title: "Email",
-                                                            children: "Email: "
-                                                        }),
-                                                        "contact@Evara.com",
-                                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
-                                                            className: "btn btn-sm font-weight-bold text-white mt-20 border-radius-5 btn-shadow-brand hover-up",
-                                                            children: [
-                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                                    className: "fi-rs-marker mr-5"
-                                                                }),
-                                                                "View map"
-                                                            ]
-                                                        })
-                                                    ]
-                                                })
-                                            ]
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                            className: "row mb-60"
                                         }),
                                         /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                             className: "row",

@@ -2319,7 +2319,7 @@ const TrendingSlider = ()=>{
 /* harmony export */   "f": () => (/* binding */ server)
 /* harmony export */ });
 const dev = "production" !== "production";
-const server = dev ? "http://localhost:3000" : "https://nest-nextjs.vercel.app";
+const server = dev ? "http://localhost:3000" : "";
 
 
 /***/ }),
