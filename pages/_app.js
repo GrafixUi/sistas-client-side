@@ -32,7 +32,6 @@ function MyApp({ Component, pageProps }) {
         <>
             <Provider store={store}>
                 <StorageWrapper>
-
                     <Component {...pageProps} />
                     <ToastContainer />
                 </StorageWrapper>

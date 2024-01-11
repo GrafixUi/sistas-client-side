@@ -1333,7 +1333,7 @@ label {
 }
 .custome-checkbox .form-check-label::before {
   content: "";
-  border: 2px solid #ced4da;
+  border: 2px solid #030303;
   height: 17px;
   width: 17px;
   margin: 0px 8px 0 0;
