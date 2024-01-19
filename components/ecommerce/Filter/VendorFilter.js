@@ -7,7 +7,7 @@ import CheckBox from "./Checkbox";
 const VendorFilter = ({ updateProductFilters }) => {
     const [sizes, setSizeCheckbox] = useState(
         [
-            { value: "NestFood" },
+            { value: "Food" },
             { value: "stouffer" },
             { value: "starKist" },
             { value: "aldi" },

@@ -42,7 +42,7 @@ const Deals1 = ({ product, addToCart }) => {
                             <span className="font-small text-muted">
                                 By{" "}
                                 <Link href="/vendor/1">
-                                    <a>NestFood</a>
+                                    <a>Food</a>
                                 </Link>
                             </span>
                         </div>
