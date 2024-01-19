@@ -8,70 +8,70 @@ SwiperCore.use([Navigation, Autoplay]);
 const data = [
     {
         id: 1,
-        title: "Cake & Milk",
+        title: "Legal",
         slug: "jeans",
         img: "cat-13.png",
         bg: "bg-9"
     },
     {
         id: 2,
-        title: "Oganic Kiwi",
+        title: "Accounting",
         slug: "shoe",
         img: "cat-12.png",
         bg: "bg-10"
     },
     {
         id: 3,
-        title: "Peach",
+        title: "Tax",
         slug: "jacket",
         img: "cat-11.png",
         bg: "bg-11"
     },
     {
         id: 4,
-        title: "Red Apple",
+        title: "Coach",
         img: "cat-9.png",
         bg: "bg-12"
     },
     {
         id: 5,
-        title: "Snack",
+        title: "Therapist",
         img: "cat-3.png",
         bg: "bg-13"
     },
     {
         id: 6,
-        title: "Vegetables",
+        title: "Pets",
         img: "cat-1.png",
         bg: "bg-14"
     },
     {
         id: 7,
-        title: "Strawberry",
+        title: "Doctors",
         img: "cat-2.png",
         bg: "bg-15"
     },
     {
         id: 8,
-        title: "Black plum",
+        title: "Designs",
         img: "cat-4.png",
         bg: "bg-12"
     },
     {
         id: 9,
-        title: "Custard apple",
+        title: "Creatives",
         img: "cat-5.png",
         bg: "bg-10"
     },
     {
         id: 10,
-        title: "Coffe & Tea",
+        title: "Party Supplies",
         img: "cat-14.png",
         bg: "bg-12"
     },
     {
         id: 11,
-        title: "Headphone",
+        title: "Organic Food",
         img: "cat-15.png",
         bg: "bg-11"
     }
@@ -133,7 +133,7 @@ const CategorySlider = () => {
                             <h6>
                                 <a>{item.title}</a>
                             </h6>
-                            <span>26 items</span>
+                            {/* <span>26 items</span> */}
                         </div>
                     </SwiperSlide>
                 ))}
@@ -150,6 +150,5 @@ const CategorySlider = () => {
         </>
     );
 };
-
 export default connect(null, { updateProductCategory })(CategorySlider);
 

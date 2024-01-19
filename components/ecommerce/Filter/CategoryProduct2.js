@@ -35,7 +35,37 @@ const CategoryProduct2 = ({ updateProductCategory }) => {
                             src="/assets/imgs/shop/product-1-1.jpg"
                             alt=""
                         />
-                        Kids
+                        Legal
+                    </a>
+                    
+                </li>
+                <li onClick={(e) => selectCategory(e, "jeans")}>
+                    <a>
+                        <img
+                            src="/assets/imgs/shop/product-2-1.jpg"
+                            alt=""
+                        />
+                        Accounting and Tax
+                    </a>
+                    
+                </li>
+                <li onClick={(e) => selectCategory(e, "jeans")}>
+                    <a>
+                        <img
+                            src="/assets/imgs/shop/product-3-1.jpg"
+                            alt=""
+                        />
+                        Coach
+                    </a>
+                    
+                </li>
+                <li onClick={(e) => selectCategory(e, "jeans")}>
+                    <a>
+                        <img
+                            src="/assets/imgs/shop/product-1-1.jpg"
+                            alt=""
+                        />
+                        Therapist
                     </a>
                     
                 </li>

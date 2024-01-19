@@ -171,7 +171,7 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                                 <a>Chen Cardigan</a>
                                             </h5>
                                             <p className="price mb-0 mt-5">
-                                                $99.50
+                                                99.50
                                             </p>
                                             <div className="product-rate">
                                                 <div
@@ -193,7 +193,7 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                                 <a>Chen Sweater</a>
                                             </h6>
                                             <p className="price mb-0 mt-5">
-                                                $89.50
+                                                89.50
                                             </p>
                                             <div className="product-rate">
                                                 <div
@@ -215,7 +215,7 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                                 <a>Colorful Jacket</a>
                                             </h6>
                                             <p className="price mb-0 mt-5">
-                                                $25
+                                                25
                                             </p>
                                             <div className="product-rate">
                                                 <div

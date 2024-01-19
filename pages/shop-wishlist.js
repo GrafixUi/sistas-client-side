@@ -90,7 +90,7 @@ const Wishlist = ({
                                                                 data-title="Price"
                                                             >
                                                                 <h3 className="text-brand">
-                                                                    $
+                                                                    
                                                                     {
                                                                         product.price
                                                                     }

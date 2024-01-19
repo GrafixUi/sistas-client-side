@@ -1917,7 +1917,7 @@ const Cart = ({
                                                             </td>
                                                             <td>
                                                                 <h4 className="text-brand">
-                                                                    $$
+                                                                    
                                                                     {item.quantity *
                                                                         item.price}
                                                                 </h4>

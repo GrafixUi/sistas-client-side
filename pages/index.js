@@ -15,21 +15,12 @@ import Link from "next/link";
 export default function Home() {
     return (
         <>
-            {/* <IntroPopup /> */}
 
             <Layout noBreadcrumb="d-none">
                 <section className="home-slider position-relative mb-30">
                     <div className="container">
                         <div className="home-slide-cover mt-30">
                             <Intro1 />
-                        </div>
-                    </div>
-                </section>
-                <section className="banners mb-25">
-                    <div className="container">
-                        <h1 className=" mb-20">Our Services</h1>
-                        <div className="row">
-                            <Banner5 />
                         </div>
                     </div>
                 </section>
@@ -45,6 +36,21 @@ export default function Home() {
                 <section className="section-padding pb-5">
                     <div className="container">
                         <FetchTabSlider />
+                    </div>
+                </section>
+
+                <section className="popular-categories section-padding">
+                    <div className="container wow animate__fadeIn animate__animated">
+                        <div className="section-title">
+                            <div className="title">
+                                <h3>Our Services</h3>
+                            </div>
+                        </div>
+                        <div className="carausel-10-columns-cover position-relative">
+                            <div className="carausel-10-columns" id="carausel-10-columns">
+                                <CategorySlider />
+                            </div>
+                        </div>
                     </div>
                 </section>
 

@@ -77,10 +77,10 @@ const ProductDetails = ({
                                             </div>
                                             <div className="clearfix product-price-cover">
                                                 <div className="product-price primary-color float-left">
-                                                    <span className="current-price  text-brand">${product.price}</span>
+                                                    <span className="current-price  text-brand">{product.price}</span>
                                                     <span>
                                                         <span className="save-price font-md color3 ml-15">{product.discount.percentage}% Off</span>
-                                                        <span className="old-price font-md ml-15">{product.oldPrice ? `$ ${product.oldPrice}` : null}</span>
+                                                        <span className="old-price font-md ml-15">{product.oldPrice ? ` ${product.oldPrice}` : null}</span>
                                                     </span>
                                                 </div>
                                             </div>
