@@ -693,7 +693,7 @@ h6 {
 }
 
 .display-2 {
-  font-size: 40px;
+  font-size: 50px;
   line-height: 1.5;
 }
 
@@ -3040,7 +3040,7 @@ table .product-thumbnail img {
   border-radius: 15px;
   overflow: hidden;
   height: 520px;
-  background: url(../imgs/banner/banner-4.png) no-repeat center bottom;
+  background: rgb(173, 172, 172);
   background-size: cover;
   width: 100%;
 }
@@ -10000,8 +10000,9 @@ footer .hotline img {
     height: 467px;
   }
   .display-2 {
-    font-size: 64px;
+    font-size: 24px;
   }
+  
   .banner-img.style-2 {
     height: 483px;
   }
@@ -10067,7 +10068,7 @@ footer .hotline img {
     height: 350px;
   }
   .hero-slider-1 .single-hero-slider .display-2 {
-    font-size: 46px;
+    font-size: 10px;
     margin-bottom: 25px !important;
   }
   .hero-slider-1 .single-hero-slider .slider-content p {
@@ -10153,7 +10154,7 @@ footer .hotline img {
     line-height: 22px;
   }
   .hero-slider-1 .single-hero-slider .display-2 {
-    font-size: 32px;
+    font-size: 12px;
   }
   .hero-slider-1 .single-hero-slider .slider-content p {
     font-size: 16px;

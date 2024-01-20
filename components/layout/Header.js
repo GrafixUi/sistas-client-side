@@ -177,7 +177,7 @@ const Header = ({
                             <div className="logo logo-width-1 d-block d-lg-none">
                                 <Link href="/">
                                     <a>
-                                        <h1>Sistaas</h1>
+                                        <h1>Sistas</h1>
                                     </a>
                                 </Link>
                             </div>
@@ -300,7 +300,7 @@ const Header = ({
 
                             <div className="header-action-right d-block d-lg-none">
                                 <div className="header-action-2">
-                                    <div className="header-action-icon-2">
+                                    {/* <div className="header-action-icon-2">
                                         <Link href="/shop-wishlist">
                                             <a>
                                                 <img
@@ -312,7 +312,7 @@ const Header = ({
                                                 </span>
                                             </a>
                                         </Link>
-                                    </div>
+                                    </div> */}
                                     <div className="header-action-icon-2">
                                         <Link href="/shop-wishlist">
                                             <a>

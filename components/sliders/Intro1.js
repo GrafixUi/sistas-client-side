@@ -77,11 +77,11 @@ const Intro4 = () => {
                                 </form>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 ">
                             <img
                                 src="https://sistas.in/assets/images/banner/banner-group.png"
                                 alt=""
-                                className="border-radius-15 mb-md-3 mb-lg-0 mb-sm-4 ml-200"
+                                className="hero-img border-radius-15 mb-md-3 mb-lg-0 mb-sm-4 ml-200"
                             />
                         </div>
                     </section>
