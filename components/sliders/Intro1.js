@@ -27,21 +27,22 @@ const Intro4 = () => {
             >
                 <SwiperSlide>
                     <section className="row align-items-center mb-50" style={{
-                        background: "#e2641d", 
+                        background: "#e2641d",
                     }}>
                         <div className="col-lg-6">
                             <div className="slider-content">
                                 <h1 className="display-2 mb-40" style={{ color: "white", }}>
-                                    Welcome | A COMMUNITY OF <br />
-                                    WOMEN-OWNED BRANDS
+                                    Welcome | A COMMUNITY OF
                                 </h1>
-
+                                <p className="mb-65" style={{ color: "white", }}>
+                                    WOMEN-OWNED BRANDS
+                                </p>
                                 <form className="form-subcriber d-flex">
                                     <input
                                         type="email"
                                         placeholder="Your emaill address"
                                     />
-                                    <button className="btn" type="submit" style={{ background: "black" }}>
+                                    <button className="btn" type="submit" style={{ background: "rgb(119, 118, 118)" }}>
                                         Subscribe
                                     </button>
                                 </form>
@@ -51,7 +52,7 @@ const Intro4 = () => {
                             <img
                                 src="https://sistas.in/assets/images/banner/banner-group.png"
                                 alt=""
-                                className="border-radius-15 mb-md-3 mb-lg-0 mb-sm-4"
+                                className="border-radius-15 mb-md-3 mb-lg-0 mb-sm-4 ml-200"
                             />
                         </div>
                     </section>
@@ -63,16 +64,17 @@ const Intro4 = () => {
                         <div className="col-lg-6">
                             <div className="slider-content">
                                 <h1 className="display-2 mb-40" style={{ color: "white", }}>
-                                    Welcome | A COMMUNITY OF <br />
-                                    WOMEN-OWNED BRANDS
+                                    Welcome | A COMMUNITY OF
                                 </h1>
-
+                                <p className="mb-65" style={{ color: "white", }}>
+                                    WOMEN-OWNED BRANDS
+                                </p>
                                 <form className="form-subcriber d-flex">
                                     <input
                                         type="email"
                                         placeholder="Your emaill address"
                                     />
-                                    <button className="btn" type="submit" style={{ background: "black" }}>
+                                    <button className="btn" type="submit" style={{ background: "rgb(119, 118, 118)" }}>
                                         Subscribe
                                     </button>
                                 </form>
@@ -82,7 +84,7 @@ const Intro4 = () => {
                             <img
                                 src="https://sistas.in/assets/images/banner/banner-group.png"
                                 alt=""
-                                className="border-radius-15 mb-md-3 mb-lg-0 mb-sm-4"
+                                className="border-radius-15 mb-md-3 mb-lg-0 mb-sm-4 ml-200"
                             />
                         </div>
                     </section>

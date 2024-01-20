@@ -15,7 +15,7 @@ const Intro4 = () => {
                 fadeEffect={{
                     crossFade: true,
                 }}
-                
+
                 pagination={{
                     clickable: true,
                 }}
@@ -35,12 +35,10 @@ const Intro4 = () => {
                     >
                         <div className="slider-content">
                             <h1 className="display-2 mb-40">
-                                Don’t miss
-                                <br />
-                                amazing deals
+                                Welcome | A COMMUNITY OF
                             </h1>
                             <p className="mb-65">
-                                Sign up for the daily newsletter
+                                WOMEN-OWNED BRANDS
                             </p>
                             <form className="form-subcriber d-flex">
                                 <input
