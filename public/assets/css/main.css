@@ -658,9 +658,10 @@ h6,
 .display-2,
 .heading-sm-1 {
   font-family: "Quicksand", sans-serif;
-  color: #253D4E;
+  color: white;
   font-weight: 700;
   line-height: 1.2;
+  font-size: 10px;
 }
 
 h1 {
@@ -693,7 +694,7 @@ h6 {
 }
 
 .display-2 {
-  font-size: 72px;
+  font-size: 42px;
   line-height: 1;
 }
 
