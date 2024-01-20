@@ -31,12 +31,11 @@ const Intro4 = () => {
                     }}>
                         <div className="col-lg-6">
                             <div className="slider-content">
-                                <h1 className="display-2 mb-40" style={{ color: "white", }}>
-                                    Welcome | A COMMUNITY OF
-                                </h1>
-                                <p className="mb-65" style={{ color: "white", }}>
+                                <h5 className="display-2 mb-40" style={{ color: "white", }}>
+                                    Welcome | A COMMUNITY OF <br />
                                     WOMEN-OWNED BRANDS
-                                </p>
+                                </h5>
+
                                 <form className="form-subcriber d-flex">
                                     <input
                                         type="email"
@@ -63,12 +62,10 @@ const Intro4 = () => {
                     }}>
                         <div className="col-lg-6">
                             <div className="slider-content">
-                                <h1 className="display-2 mb-40" style={{ color: "white", }}>
-                                    Welcome | A COMMUNITY OF
-                                </h1>
-                                <p className="mb-65" style={{ color: "white", }}>
+                                <h5 className="display-2 mb-40" style={{ color: "white", }}>
+                                    Welcome | A COMMUNITY OF <br />
                                     WOMEN-OWNED BRANDS
-                                </p>
+                                </h5>
                                 <form className="form-subcriber d-flex">
                                     <input
                                         type="email"

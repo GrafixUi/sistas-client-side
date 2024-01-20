@@ -28,12 +28,6 @@ const Header = ({
     return (
         <>
             <header className="header-area header-style-1 header-height-2">
-                <div className="mobile-promotion">
-                    <span>
-                        Grand opening, <strong>up to 15%</strong> off all items.
-                        Only <strong>3 days</strong> left
-                    </span>
-                </div>
                 <div className="header-middle header-middle-ptb-1 d-none d-lg-block">
                     <div className="container">
                         <div className="header-wrap">
@@ -48,8 +42,9 @@ const Header = ({
                                 </div>
                                 <div className="header-action-right">
                                     <div className="header-action-2">
+                                        
                                         <div className="header-action-icon-2">
-                                            <Link href="/shop-compare">
+                                            {/* <Link href="/shop-compare">
                                                 <a>
                                                     <img
                                                         className="svgInject"
@@ -60,16 +55,16 @@ const Header = ({
                                                         {totalCompareItems}
                                                     </span>
                                                 </a>
-                                            </Link>
-                                            <Link href="/shop-compare">
+                                            </Link> */}
+                                            <Link href="/sell">
                                                 <a>
                                                     <span className="lable ml-0">
-                                                        Compare
+                                                        Sell On 
                                                     </span>
                                                 </a>
                                             </Link>
                                         </div>
-                                        <div className="header-action-icon-2">
+                                        {/* <div className="header-action-icon-2">
                                             <Link href="/shop-wishlist">
                                                 <a>
                                                     <img
@@ -87,7 +82,7 @@ const Header = ({
                                                     Wishlist
                                                 </span>
                                             </Link>
-                                        </div>
+                                        </div> */}
                                         <div className="header-action-icon-2">
                                             <Link href="/shop-cart">
                                                 <a className="mini-cart-icon">
