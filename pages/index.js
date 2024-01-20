@@ -24,15 +24,6 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-
-                {/* <section className="product-tabs section-padding position-relative">
-                    <div className="container">
-                        <div className="col-lg-12">
-                            <CategoryTab />
-                        </div>
-                    </div>
-                </section> */}
-
                 <section className="popular-categories section-padding">
                     <div className="container wow animate__fadeIn animate__animated">
                         <div className="section-title">
