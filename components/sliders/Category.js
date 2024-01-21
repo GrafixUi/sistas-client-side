@@ -86,7 +86,7 @@ const CategorySlider = () => {
         // removeSearchTerm();
         updateProductCategory(category);
         router.push({
-            pathname: "/products",
+            pathname: "/#",
             query: {
                 cat: category //
             }

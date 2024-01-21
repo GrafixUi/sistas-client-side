@@ -44,7 +44,7 @@ const Header = ({
                                     <div className="header-action-2">
                                         
                                         <div className="header-action-icon-2">
-                                            {/* <Link href="/shop-compare">
+                                            {/* <Link href="/compare">
                                                 <a>
                                                     <img
                                                         className="svgInject"
@@ -64,8 +64,8 @@ const Header = ({
                                                 </a>
                                             </Link>
                                         </div>
-                                        {/* <div className="header-action-icon-2">
-                                            <Link href="/shop-wishlist">
+                                        <div className="header-action-icon-2">
+                                            <Link href="/wishlist">
                                                 <a>
                                                     <img
                                                         className="svgInject"
@@ -77,14 +77,14 @@ const Header = ({
                                                     </span>
                                                 </a>
                                             </Link>
-                                            <Link href="/shop-wishlist">
+                                            <Link href="/wishlist">
                                                 <span className="lable">
                                                     Wishlist
                                                 </span>
                                             </Link>
-                                        </div> */}
+                                        </div>
                                         <div className="header-action-icon-2">
-                                            <Link href="/shop-cart">
+                                            <Link href="/cart">
                                                 <a className="mini-cart-icon">
                                                     <img
                                                         alt="Evara"
@@ -95,7 +95,7 @@ const Header = ({
                                                     </span>
                                                 </a>
                                             </Link>
-                                            <Link href="/shop-cart">
+                                            <Link href="/cart">
                                                 <a>
                                                     <span className="lable">
                                                         Cart
@@ -120,7 +120,7 @@ const Header = ({
                                             <div className="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
                                                 <ul>
                                                     <li>
-                                                        <Link href="/#">
+                                                        <Link href="/account">
                                                             <a>
                                                                 <i className="fi fi-rs-user mr-10"></i>
                                                                 My Account
@@ -139,7 +139,7 @@ const Header = ({
                                                         </a></Link>
                                                     </li>
                                                     <li>
-                                                        <Link href="/shop-wishlist"><a>
+                                                        <Link href="/wishlist"><a>
                                                             <i className="fi fi-rs-heart mr-10"></i>
                                                             My Wishlist
                                                         </a></Link>
@@ -151,7 +151,7 @@ const Header = ({
                                                         </a></Link>
                                                     </li>
                                                     <li>
-                                                        <Link href="/page-login"><a>
+                                                        <Link href="/login"><a>
                                                             <i className="fi fi-rs-sign-out mr-10"></i>
                                                             Sign out
                                                         </a></Link>
@@ -215,7 +215,7 @@ const Header = ({
                                                     src="/assets/imgs/theme/icons/icon-hot.svg"
                                                     alt="hot deals"
                                                 /> */}
-                                                <Link href="#"><a>
+                                                <Link href="/products"><a>
                                                     Fashion
                                                 </a>
                                                 </Link>

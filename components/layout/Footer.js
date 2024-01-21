@@ -72,13 +72,13 @@ const Footer = () => {
                                 <h4 className="widget-title">Company</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="#">About Us</a>
+                                        <a href="/about">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="#">Contact US</a>
+                                        <a href="/contact">Contact US</a>
                                     </li>
                                     <li>
-                                        <a href="#">Blog</a>
+                                        <a href="/blog">Blog</a>
                                     </li>
                                     <li>
                                         <a href="#">Privacy Policy</a>
@@ -145,16 +145,16 @@ const Footer = () => {
                                 <h4 className="widget-title ">ORDER</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="#">My Account</a>
+                                        <a href="/account">My Account</a>
                                     </li>
                                     <li>
-                                        <a href="#">View Cart</a>
+                                        <a href="/cart">View Cart</a>
                                     </li>
                                     <li>
-                                        <a href="#">Wishlist</a>
+                                        <a href="/wishlist">Wishlist</a>
                                     </li>
                                     <li>
-                                        <a href="#">Checkout</a>
+                                        <a href="checkout">Checkout</a>
                                     </li>
                                 </ul>
                             </div>
