@@ -47,7 +47,7 @@ const Intro4 = () => {
                                 </form>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 py-8">
                             <img
                                 src="https://sistas.in/assets/images/banner/banner-group.png"
                                 alt=""
