@@ -145,7 +145,7 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                                 <div className="product-category">
                                                     <span className="text-muted">Since 2012</span>
                                                 </div>
-                                                <h4 className="mb-5"><Link href="/vendor/1"><a className="text-heading">{singleStore.title}</a></Link></h4>
+                                                <h4 className="mb-5"><Link href="/vendor/1" className="text-heading">{singleStore.title}</Link></h4>
 
                                                 <div className="product-rate-cover mb-15">
                                                     <div className="product-rate d-inline-block">
@@ -161,24 +161,24 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                                     <h6 className="mb-15">Follow Us</h6>
                                                     <ul className="social-network">
                                                         <li className="hover-up">
-                                                            <a href="#">
+                                                            <Link href="#">
                                                                 <img src="/assets/imgs/theme/icons/social-tw.svg" alt="" />
-                                                            </a>
+                                                            </Link>
                                                         </li>
                                                         <li className="hover-up">
-                                                            <a href="#">
+                                                            <Link href="#">
                                                                 <img src="/assets/imgs/theme/icons/social-fb.svg" alt="" />
-                                                            </a>
+                                                            </Link>
                                                         </li>
                                                         <li className="hover-up">
-                                                            <a href="#">
+                                                            <Link href="#">
                                                                 <img src="/assets/imgs/theme/icons/social-insta.svg" alt="" />
-                                                            </a>
+                                                            </Link>
                                                         </li>
                                                         <li className="hover-up">
-                                                            <a href="#">
+                                                            <Link href="#">
                                                                 <img src="/assets/imgs/theme/icons/social-pin.svg" alt="" />
-                                                            </a>
+                                                            </Link>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -188,7 +188,7 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                                                         <li><img className="mr-5" src="assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong> <span>5171 W Campbell Ave undefined, Utah 53127 United States</span></li>
                                                         <li><img className="mr-5" src="assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Call Us:</strong><span>(+91) - 540-025-124553</span></li>
                                                     </ul>
-                                                    <Link href="/vendor/1"><a className="btn btn-xs">Contact Seller <i className="i-rs-arrow-small-right"></i></a></Link>
+                                                    <Link href="/vendor/1" className="btn btn-xs">Contact Seller <i className="i-rs-arrow-small-right"></i></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -324,33 +324,7 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                 {/* <CompareModal /> */}
                 {/* <CartSidebar /> */}
                 <QuickView />
-                {/* <div className="container">
-                    <div className="row">
-                        <div className="col-xl-6">
-                            <Search />
-                        </div>
-                        <div className="col-xl-6">
-                            <SideBarIcons />
-                        </div>
-                    </div>
-                    <div className="row justify-content-center text-center">
-                        <div className="col-xl-6">
-                            <CategoryProduct />
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-xl-3">
-                            
-                        </div>
-                        <div className="col-md-9">
-                            
-
-                            
-
-                            
-                        </div>
-                    </div>
-                </div> */}
+                
             </Layout>
         </>
     );

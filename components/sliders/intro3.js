@@ -16,7 +16,7 @@ const Intro3 = () => {
                 fadeEffect={{
                     crossFade: true,
                 }}
-                
+
                 pagination={{
                     clickable: true,
                 }}
@@ -41,10 +41,8 @@ const Intro3 = () => {
                                     <p className="animated">
                                         Save more with coupons & up to 70% off
                                     </p>
-                                    <Link href="/shop-product-right">
-                                        <a className="animated btn btn-brush btn-brush-3">
-                                            Shop Now
-                                        </a>
+                                    <Link href="/shop-product-right" className="animated btn btn-brush btn-brush-3">
+                                        Shop Now
                                     </Link>
                                 </div>
                                 <div className="slider-img">
@@ -74,10 +72,8 @@ const Intro3 = () => {
                                     <p className="animated">
                                         Save more with coupons & up to 20% off
                                     </p>
-                                    <Link href="/shop-product-right">
-                                        <a className="animated btn btn-brush btn-brush-3">
-                                            Shop Now
-                                        </a>
+                                    <Link href="/shop-product-right" className="animated btn btn-brush btn-brush-3">
+                                        Shop Now
                                     </Link>
                                 </div>
                                 <div className="slider-img">

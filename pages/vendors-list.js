@@ -44,11 +44,11 @@ const Blank = () => {
                                             </div>
                                             <div className="sort-by-dropdown">
                                                 <ul>
-                                                    <li><a className="active" href="#">50</a></li>
-                                                    <li><a href="#">100</a></li>
-                                                    <li><a href="#">150</a></li>
-                                                    <li><a href="#">200</a></li>
-                                                    <li><a href="#">All</a></li>
+                                                    <li><Link className="active" href="#">50</Link></li>
+                                                    <li><Link href="#">100</Link></li>
+                                                    <li><Link href="#">150</Link></li>
+                                                    <li><Link href="#">200</Link></li>
+                                                    <li><Link href="#">All</Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -63,11 +63,11 @@ const Blank = () => {
                                             </div>
                                             <div className="sort-by-dropdown">
                                                 <ul>
-                                                    <li><a className="active" href="#">Mall</a></li>
-                                                    <li><a href="#">Featured</a></li>
-                                                    <li><a href="#">Preferred</a></li>
-                                                    <li><a href="#">Total items</a></li>
-                                                    <li><a href="#">Avg. Rating</a></li>
+                                                    <li><Link className="active" href="#">Mall</Link></li>
+                                                    <li><Link href="#">Featured</Link></li>
+                                                    <li><Link href="#">Preferred</Link></li>
+                                                    <li><Link href="#">Total items</Link></li>
+                                                    <li><Link href="#">Avg. Rating</Link></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -77,67 +77,66 @@ const Blank = () => {
                         </div>
                         <div className="row vendor-grid">
                             {data.map((item, i) => (
-                                
-                                    <div className="col-lg-6 col-md-6 col-12 col-sm-6" key={i}>
-                                        <div className="vendor-wrap mb-40  style-2">
-                                            <div className="product-badges product-badges-position product-badges-mrg">
-                                                <span className="hot">Mall</span>
-                                            </div>
-                                            <div className="vendor-img-action-wrap">
-                                                <div className="vendor-img">
-                                                    <Link href={`vendor/${item.id}`}><a>
-                                                        <img className="default-img" src={`assets/imgs/vendor/${item.img}`} alt="" />
-                                                    </a></Link>
-                                                </div>
 
-                                                <div className="mt-10">
-                                                    <span className="font-small total-product">380 products</span>
-                                                </div>
+                                <div className="col-lg-6 col-md-6 col-12 col-sm-6" key={i}>
+                                    <div className="vendor-wrap mb-40  style-2">
+                                        <div className="product-badges product-badges-position product-badges-mrg">
+                                            <span className="hot">Mall</span>
+                                        </div>
+                                        <div className="vendor-img-action-wrap">
+                                            <div className="vendor-img">
+                                                <Link href={`vendor/${item.id}`}>
+                                                    <img className="default-img" src={`assets/imgs/vendor/${item.img}`} alt="" /></Link>
                                             </div>
-                                            <div className="vendor-content-wrap">
-                                                <div className="mb-30">
-                                                    <div className="product-category">
-                                                        <span className="text-muted">Since 2012</span>
-                                                    </div>
-                                                    <h4 className="mb-5"><Link href={`vendor/${item.id}`}><a>{item.title}</a></Link></h4>
 
-                                                    <div className="product-rate-cover">
-                                                        <div className="product-rate d-inline-block">
-                                                            <div className="product-rating" style={{ "width": "90%" }}></div>
-                                                        </div>
-                                                        <span className="font-small ml-5 text-muted"> (4.0)</span>
+                                            <div className="mt-10">
+                                                <span className="font-small total-product">380 products</span>
+                                            </div>
+                                        </div>
+                                        <div className="vendor-content-wrap">
+                                            <div className="mb-30">
+                                                <div className="product-category">
+                                                    <span className="text-muted">Since 2012</span>
+                                                </div>
+                                                <h4 className="mb-5"><Link href={`vendor/${item.id}`}>{item.title}</Link></h4>
+
+                                                <div className="product-rate-cover">
+                                                    <div className="product-rate d-inline-block">
+                                                        <div className="product-rating" style={{ "width": "90%" }}></div>
                                                     </div>
-                                                    <div className="vendor-info d-flex justify-content-between align-items-end mt-30">
-                                                        <ul className="contact-infor text-muted">
-                                                            <li><img src="/assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong> <span>5171 W Campbell Ave undefined Kent, Utah 53127 United States</span></li>
-                                                            <li><img src="/assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Call Us:</strong><span>(+91) - 540-025-124553</span></li>
-                                                        </ul>
-                                                        <Link href={`vendor/${item.id}`}><a className="btn btn-xs">Visit Store <i className="fi-rs-arrow-small-right"></i></a></Link>
-                                                    </div>
+                                                    <span className="font-small ml-5 text-muted"> (4.0)</span>
+                                                </div>
+                                                <div className="vendor-info d-flex justify-content-between align-items-end mt-30">
+                                                    <ul className="contact-infor text-muted">
+                                                        <li><img src="/assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong> <span>5171 W Campbell Ave undefined Kent, Utah 53127 United States</span></li>
+                                                        <li><img src="/assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Call Us:</strong><span>(+91) - 540-025-124553</span></li>
+                                                    </ul>
+                                                    <Link href={`vendor/${item.id}`} className="btn btn-xs">Visit Store <i className="fi-rs-arrow-small-right"></i></Link>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                
+                                </div>
+
                             ))}
                         </div>
                         <div className="pagination-area mt-20 mb-20">
-                        <nav aria-label="Page navigation example">
-                            <ul className="pagination justify-content-start">
-                                <li className="page-item">
-                                    <a className="page-link" href="#"><i className="fi-rs-arrow-small-left"></i></a>
-                                </li>
-                                <li className="page-item"><a className="page-link" href="#">1</a></li>
-                                <li className="page-item active"><a className="page-link" href="#">2</a></li>
-                                <li className="page-item"><a className="page-link" href="#">3</a></li>
-                                <li className="page-item"><a className="page-link dot" href="#">...</a></li>
-                                <li className="page-item"><a className="page-link" href="#">6</a></li>
-                                <li className="page-item">
-                                    <a className="page-link" href="#"><i className="fi-rs-arrow-small-right"></i></a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
+                            <nav aria-label="Page navigation example">
+                                <ul className="pagination justify-content-start">
+                                    <li className="page-item">
+                                        <Link className="page-link" href="#"><i className="fi-rs-arrow-small-left"></i></Link>
+                                    </li>
+                                    <li className="page-item"><Link className="page-link" href="#">1</Link></li>
+                                    <li className="page-item active"><Link className="page-link" href="#">2</Link></li>
+                                    <li className="page-item"><Link className="page-link" href="#">3</Link></li>
+                                    <li className="page-item"><Link className="page-link dot" href="#">...</Link></li>
+                                    <li className="page-item"><Link className="page-link" href="#">6</Link></li>
+                                    <li className="page-item">
+                                        <Link className="page-link" href="#"><i className="fi-rs-arrow-small-right"></i></Link>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
 

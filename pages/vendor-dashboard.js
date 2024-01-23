@@ -95,9 +95,9 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>Processing</td>
                                                         <td>125.00 for 2 item</td>
                                                         <td>
-                                                            <a href="#" className="btn-small d-block">
+                                                            <Link href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </Link>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -106,9 +106,9 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>Completed</td>
                                                         <td>364.00 for 5 item</td>
                                                         <td>
-                                                            <a href="#" className="btn-small d-block">
+                                                            <Link href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </Link>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -117,9 +117,9 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>Completed</td>
                                                         <td>280.00 for 3 item</td>
                                                         <td>
-                                                            <a href="#" className="btn-small d-block">
+                                                            <Link href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </Link>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -128,9 +128,9 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>Processing</td>
                                                         <td>125.00 for 2 item</td>
                                                         <td>
-                                                            <a href="#" className="btn-small d-block">
+                                                            <Link href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </Link>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -139,9 +139,9 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>Completed</td>
                                                         <td>364.00 for 5 item</td>
                                                         <td>
-                                                            <a href="#" className="btn-small d-block">
+                                                            <Link href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </Link>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -150,9 +150,9 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>Completed</td>
                                                         <td>280.00 for 3 item</td>
                                                         <td>
-                                                            <a href="#" className="btn-small d-block">
+                                                            <Link href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </Link>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -161,9 +161,9 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>Processing</td>
                                                         <td>125.00 for 2 item</td>
                                                         <td>
-                                                            <a href="#" className="btn-small d-block">
+                                                            <Link href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </Link>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -172,9 +172,9 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                                                         <td>Completed</td>
                                                         <td>364.00 for 5 item</td>
                                                         <td>
-                                                            <a href="#" className="btn-small d-block">
+                                                            <Link href="#" className="btn-small d-block">
                                                                 View
-                                                            </a>
+                                                            </Link>
                                                         </td>
                                                     </tr>
                                                 </tbody>

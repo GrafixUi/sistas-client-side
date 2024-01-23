@@ -1,4 +1,5 @@
 import Layout from "../components/layout/Layout";
+import Link from "next/link"
 
 function About() {
   return (
@@ -51,7 +52,7 @@ function About() {
                         available, but the majority have suffered alteration in
                         some form
                       </p>
-                      <a href="#">Read more</a>
+                      <Link href="#">Read more</Link>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 mb-24">
@@ -63,7 +64,7 @@ function About() {
                         available, but the majority have suffered alteration in
                         some form
                       </p>
-                      <a href="#">Read more</a>
+                      <Link href="#">Read more</Link>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 mb-24">
@@ -75,7 +76,7 @@ function About() {
                         available, but the majority have suffered alteration in
                         some form
                       </p>
-                      <a href="#">Read more</a>
+                      <Link href="#">Read more</Link>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 mb-24">
@@ -87,7 +88,7 @@ function About() {
                         available, but the majority have suffered alteration in
                         some form
                       </p>
-                      <a href="#">Read more</a>
+                      <Link href="#">Read more</Link>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 mb-24">
@@ -99,7 +100,7 @@ function About() {
                         available, but the majority have suffered alteration in
                         some form
                       </p>
-                      <a href="#">Read more</a>
+                      <Link href="#">Read more</Link>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6 mb-24">
@@ -111,7 +112,7 @@ function About() {
                         available, but the majority have suffered alteration in
                         some form
                       </p>
-                      <a href="#">Read more</a>
+                      <Link href="#">Read more</Link>
                     </div>
                   </div>
                 </div>

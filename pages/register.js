@@ -15,7 +15,7 @@ function Privacy() {
                                         <div className="padding_eight_all bg-white">
                                             <div className="heading_s1">
                                                 <h1 className="mb-5">Create an Account</h1>
-                                                <p>Already have an account? <Link href="/page-login"><a>Log in instead!</a></Link></p>
+                                                <p>Already have an account? <Link href="/page-login">Log in instead!</Link></p>
                                             </div>
                                             <form method="post">
                                                 <div className="form-group">
@@ -41,16 +41,7 @@ function Privacy() {
                                                         <b className="text-best">5</b>
                                                     </span>
                                                 </div>
-                                                {/* <div className="payment_option mb-50">
-                                                    <div className="custome-radio">
-                                                        <input className="form-check-input" required="" type="radio" name="payment_option" id="exampleRadios3" defaultChecked="" />
-                                                        <label className="form-check-label" htmlFor="exampleRadios3" data-bs-toggle="collapse" data-target="#bankTranfer" aria-controls="bankTranfer">I am a customer</label>
-                                                    </div>
-                                                    <div className="custome-radio">
-                                                        <input className="form-check-input" required="" type="radio" name="payment_option" id="exampleRadios4" defaultChecked="" />
-                                                        <label className="form-check-label" htmlFor="exampleRadios4" data-bs-toggle="collapse" data-target="#checkPayment" aria-controls="checkPayment">I am a vendor</label>
-                                                    </div>
-                                                </div> */}
+                                                
                                                 <div className="login_footer form-group mb-50">
                                                     <div className="chek-form">
                                                         <div className="custome-checkbox">
@@ -58,7 +49,7 @@ function Privacy() {
                                                             <label className="form-check-label" htmlFor="exampleCheckbox12"><span>I agree to terms &amp; Policy.</span></label>
                                                         </div>
                                                     </div>
-                                                    <Link href="/page-privacy-policy"><a><i className="fi-rs-book-alt mr-5 text-muted"></i>Lean more</a></Link>
+                                                    <Link href="/page-privacy-policy"><i className="fi-rs-book-alt mr-5 text-muted"></i>Lean more</Link>
                                                 </div>
                                                 <div className="form-group mb-30">
                                                     <button type="submit" className="btn btn-fill-out btn-block hover-up font-weight-bold" name="login">Submit &amp; Register</button>
@@ -70,18 +61,18 @@ function Privacy() {
                                 </div>
                                 <div className="col-lg-6 pr-30 d-none d-lg-block">
                                     <div className="card-login mt-115">
-                                        <a href="#" className="social-login facebook-login">
+                                        <Link href="/#" className="social-login facebook-login">
                                             <img src="/assets/imgs/theme/icons/logo-facebook.svg" alt="" />
                                             <span>Continue with Facebook</span>
-                                        </a>
-                                        <a href="#" className="social-login google-login">
+                                        </Link>
+                                        <Link href="/#" className="social-login google-login">
                                             <img src="/assets/imgs/theme/icons/logo-google.svg" alt="" />
                                             <span>Continue with Google</span>
-                                        </a>
-                                        <a href="#" className="social-login apple-login">
+                                        </Link>
+                                        <Link href="/#" className="social-login apple-login">
                                             <img src="/assets/imgs/theme/icons/logo-apple.svg" alt="" />
                                             <span>Continue with Apple</span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

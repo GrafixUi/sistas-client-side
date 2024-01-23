@@ -40,9 +40,7 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                     <div className="mobile-header-top">
                         <div className="mobile-header-logo">
                             <Link href="/">
-                                <a>
-                                    <h1>Sistas</h1>
-                                </a>
+                                <h1>Sistas</h1>
                             </Link>
                         </div>
                         <div className="mobile-menu-close close-style-wrap close-style-position-inherit">
@@ -69,85 +67,65 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                         </div>
                         <div className="mobile-menu-wrap mobile-header-border">
                             <div className="main-categori-wrap mobile-header-border">
-                                <Link href="#">
-                                    <a className="categori-button-active-2">
-                                        <span className="fi-rs-apps"></span> Browse
-                                        Categories
-                                    </a>
+                                <Link href="#" className="categori-button-active-2">
+                                    <span className="fi-rs-apps"></span> Browse
+                                    Categories
                                 </Link>
                                 <div className="categori-dropdown-wrap categori-dropdown-active-small">
                                     <ul>
                                         <li>
-                                           <Link href="/shop-grid-right">
-                                                <a>
-                                                    <i className="evara-font-dress"></i>
-                                                    Women's Clothing
-                                                </a>
+                                            <Link href="/shop-grid-right">
+                                                <i className="evara-font-dress"></i>
+                                                Women's Clothing
                                             </Link>
                                         </li>
                                         <li>
-                                           <Link href="/shop-grid-right">
-                                                <a>
-                                                    <i className="evara-font-tshirt"></i>
-                                                    Men's Clothing
-                                                </a>
+                                            <Link href="/shop-grid-right">
+                                                <i className="evara-font-tshirt"></i>
+                                                Men's Clothing
                                             </Link>
                                         </li>
                                         <li>
                                             {" "}
-                                           <Link href="/shop-grid-right">
-                                                <a>
-                                                    <i className="evara-font-smartphone"></i>{" "}
-                                                    Cellphones
-                                                </a>
+                                            <Link href="/shop-grid-right">
+                                                <i className="evara-font-smartphone"></i>{" "}
+                                                Cellphones
                                             </Link>
                                         </li>
                                         <li>
-                                           <Link href="/shop-grid-right">
-                                                <a>
-                                                    <i className="evara-font-desktop"></i>
-                                                    Computer & Office
-                                                </a>
+                                            <Link href="/shop-grid-right">
+                                                <i className="evara-font-desktop"></i>
+                                                Computer & Office
                                             </Link>
                                         </li>
                                         <li>
-                                           <Link href="/shop-grid-right">
-                                                <a>
-                                                    <i className="evara-font-cpu"></i>
-                                                    Consumer Electronics
-                                                </a>
+                                            <Link href="/shop-grid-right">
+                                                <i className="evara-font-cpu"></i>
+                                                Consumer Electronics
                                             </Link>
                                         </li>
                                         <li>
-                                           <Link href="/shop-grid-right">
-                                                <a>
-                                                    <i className="evara-font-home"></i>
-                                                    Home & Garden
-                                                </a>
+                                            <Link href="/shop-grid-right">
+                                                <i className="evara-font-home"></i>
+                                                Home & Garden
                                             </Link>
                                         </li>
                                         <li>
-                                           <Link href="/shop-grid-right">
-                                                <a>
-                                                    <i className="evara-font-high-heels"></i>
-                                                    Shoes
-                                                </a>
+                                            <Link href="/shop-grid-right">
+                                                <i className="evara-font-high-heels"></i>
+                                                Shoes
                                             </Link>
                                         </li>
                                         <li>
-                                           <Link href="/shop-grid-right">
-                                                <a>
-                                                    <i className="evara-font-teddy-bear"></i>
-                                                    Mother & Kids
-                                                </a>
+                                            <Link href="/shop-grid-right">
+                                                <i className="evara-font-teddy-bear"></i>
+                                                Mother & Kids
                                             </Link>
                                         </li>
                                         <li>
-                                           <Link href="/shop-grid-right">
-                                                <a>
-                                                    <i className="evara-font-kite"></i>
-                                                    Outdoor fun
-                                                </a>
+                                            <Link href="/shop-grid-right">
+                                                <i className="evara-font-kite"></i>
+                                                Outdoor fun
                                             </Link>
                                         </li>
                                     </ul>
@@ -170,9 +148,9 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             {/* <i className="fi-rs-angle-small-down"></i> */}
                                         </span>
                                         <Link href="/index">
-                                            <a>Fashion</a>
+                                            Fashion
                                         </Link>
-                                        
+
                                     </li>
                                     <li
                                         className={
@@ -187,10 +165,10 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                         >
                                             {/* <i className="fi-rs-angle-small-down"></i> */}
                                         </span>
-                                       <Link href="/shop-grid-right">
-                                            <a>Arts and Craft</a>
+                                        <Link href="/shop-grid-right">
+                                            Arts and Craft
                                         </Link>
-                                        
+
                                     </li>
                                     <li
                                         className={
@@ -206,9 +184,9 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             {/* <i className="fi-rs-angle-small-down"></i> */}
                                         </span>
                                         <Link href="#">
-                                            <a>Beauty</a>
+                                            Beauty
                                         </Link>
-                                        
+
                                     </li>
                                     <li
                                         className={
@@ -224,9 +202,9 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             {/* <i className="fi-rs-angle-small-down"></i> */}
                                         </span>
                                         <Link href="/blog-category-fullwidth">
-                                            <a>Home and Decor</a>
+                                            Home and Decor
                                         </Link>
-                                        
+
                                     </li>
                                     <li
                                         className={
@@ -242,9 +220,9 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             {/* <i className="fi-rs-angle-small-down"></i> */}
                                         </span>
                                         <Link href="#">
-                                            <a>Baby Product</a>
+                                            Baby Product
                                         </Link>
-                                        
+
                                     </li>
                                     <li
                                         className={
@@ -260,9 +238,9 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             {/* <i className="fi-rs-angle-small-down"></i> */}
                                         </span>
                                         <Link href="#">
-                                            <a>Party Supplies</a>
+                                            Party Supplies
                                         </Link>
-                                        
+
                                     </li>
                                     <li
                                         className={
@@ -278,9 +256,9 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             {/* <i className="fi-rs-angle-small-down"></i> */}
                                         </span>
                                         <Link href="#">
-                                            <a>Books and Stationery</a>
+                                            Books and Stationery
                                         </Link>
-                                        
+
                                     </li>
                                     <li
                                         className={
@@ -296,16 +274,12 @@ const MobileMenu = ({ isToggled, toggleClick }) => {
                                             {/* <i className="fi-rs-angle-small-down"></i> */}
                                         </span>
                                         <Link href="#">
-                                            <a>Organic Food</a>
+                                            Organic Food
                                         </Link>
-                                        
                                     </li>
-                                    
                                 </ul>
                             </nav>
                         </div>
-                        
-                        
                     </div>
                 </div>
             </div>

@@ -23,19 +23,19 @@ function Account() {
                                         <div className="dashboard-menu">
                                             <ul className="nav flex-column" role="tablist">
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 1 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(1)}><i className="fi-rs-settings-sliders mr-10"></i>Dashboard</a>
+                                                    <Link href="/#" className={activeIndex === 1 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(1)}><i className="fi-rs-settings-sliders mr-10"></i>Dashboard</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 2 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(2)}><i className="fi-rs-shopping-bag mr-10"></i>Orders</a>
+                                                    <Link href="/#" className={activeIndex === 2 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(2)}><i className="fi-rs-shopping-bag mr-10"></i>Orders</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 3 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(3)}><i className="fi-rs-shopping-cart-check mr-10"></i>Track Your Order</a>
+                                                    <Link href="/#" className={activeIndex === 3 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(3)}><i className="fi-rs-shopping-cart-check mr-10"></i>Track Your Order</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 4 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(4)}><i className="fi-rs-marker mr-10"></i>My Address</a>
+                                                    <Link href="/#" className={activeIndex === 4 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(4)}><i className="fi-rs-marker mr-10"></i>My Address</Link>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className={activeIndex === 5 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(5)}><i className="fi-rs-user mr-10"></i>Account details</a>
+                                                    <Link href="/#" className={activeIndex === 5 ? "nav-link active" : "nav-link"}  onClick={() => handleOnClick(5)}><i className="fi-rs-user mr-10"></i>Account details</Link>
                                                 </li>
                                                 <li className="nav-item">
                                                     <Link href="/page-login"><a className="nav-link"><i className="fi-rs-sign-out mr-10"></i>Logout</a></Link>
@@ -52,8 +52,8 @@ function Account() {
                                                     </div>
                                                     <div className="card-body">
                                                         <p>
-                                                            From your account dashboard. you can easily check &amp; view your <a href="#">recent orders</a>,<br />
-                                                            manage your <a href="#">shipping and billing addresses</a> and <a href="#">edit your password and account details.</a>
+                                                            From your account dashboard. you can easily check &amp; view your <Link href="#">recent orders</Link>,<br />
+                                                            manage your <Link href="/#">shipping and billing addresses</Link> and <a href="#">edit your password and account details.</a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -81,21 +81,21 @@ function Account() {
                                                                         <td>March 45, 2020</td>
                                                                         <td>Processing</td>
                                                                         <td>125.00 for 2 item</td>
-                                                                        <td><a href="#" className="btn-small d-block">View</a></td>
+                                                                        <td><Link href="/#" className="btn-small d-block">View</Link></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>#2468</td>
                                                                         <td>June 29, 2020</td>
                                                                         <td>Completed</td>
                                                                         <td>364.00 for 5 item</td>
-                                                                        <td><a href="#" className="btn-small d-block">View</a></td>
+                                                                        <td><Link href="/#" className="btn-small d-block">View</Link></td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td>#2366</td>
                                                                         <td>August 02, 2020</td>
                                                                         <td>Completed</td>
                                                                         <td>280.00 for 3 item</td>
-                                                                        <td><a href="#" className="btn-small d-block">View</a></td>
+                                                                        <td><Link href="/#" className="btn-small d-block">View</Link></td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -142,7 +142,7 @@ function Account() {
                                                                     Sault Ste. <br />Marie, MI 49783
                                                                 </address>
                                                                 <p>New York</p>
-                                                                <a href="#" className="btn-small">Edit</a>
+                                                                <Link href="/#" className="btn-small">Edit</Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -157,7 +157,7 @@ function Account() {
                                                                     Sarasota, <br />FL 34249 USA <br />Phone: 1.941.227.4444
                                                                 </address>
                                                                 <p>Sarasota</p>
-                                                                <a href="#" className="btn-small">Edit</a>
+                                                                <Link href="/#" className="btn-small">Edit</Link>
                                                             </div>
                                                         </div>
                                                     </div>

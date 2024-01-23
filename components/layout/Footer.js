@@ -15,9 +15,8 @@ const Footer = () => {
                                     data-wow-delay="0"
                                 >
                                     <div className="logo  mb-30">
-                                        <Link href="/"><a className="mb-15">
+                                        <Link href="/">
                                             <h1>Sistas</h1>
-                                        </a>
                                         </Link>
                                         <p className="font-lg text-heading">
                                             Our company is dedicated to creating unique and
@@ -72,49 +71,21 @@ const Footer = () => {
                                 <h4 className="widget-title">Company</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="/about">About Us</a>
+                                        <Link href="/about">About Us</Link>
                                     </li>
                                     <li>
-                                        <a href="/contact">Contact US</a>
+                                        <Link href="/contact">Contact US</Link>
                                     </li>
                                     <li>
-                                        <a href="/blog">Blog</a>
+                                        <Link href="/blog">Blog</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Privacy Policy</a>
+                                        <Link href="#">Privacy Policy</Link>
                                     </li>
 
                                 </ul>
                             </div>
-                            {/* <div
-                                className="footer-link-widget col  wow animate__animated animate__fadeInUp"
-                                data-wow-delay=".2s"
-                            >
-                                <h4 className="widget-title ">Account</h4>
-                                <ul className="footer-list  mb-sm-5 mb-md-0">
-                                    <li>
-                                        <a href="#">Sign In</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">View Cart</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">My Wishlist</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Track My Order</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Help Ticket</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Shipping Details</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Compare products</a>
-                                    </li>
-                                </ul>
-                            </div> */}
+                            
                             <div
                                 className="footer-link-widget col  wow animate__animated animate__fadeInUp"
                                 data-wow-delay=".3s"
@@ -122,19 +93,19 @@ const Footer = () => {
                                 <h4 className="widget-title ">INFORMATION</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="#">FAQ's</a>
+                                        <Link href="#">FAQ's</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Terms</a>
+                                        <Link href="#">Terms</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Delivery info</a>
+                                        <Link href="#">Delivery info</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Refund Policy</a>
+                                        <Link href="#">Refund Policy</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Size Guid</a>
+                                        <Link href="#">Size Guid</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -145,50 +116,20 @@ const Footer = () => {
                                 <h4 className="widget-title ">ORDER</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="/account">My Account</a>
+                                        <Link href="/account">My Account</Link>
                                     </li>
                                     <li>
-                                        <a href="/cart">View Cart</a>
+                                        <Link href="/cart">View Cart</Link>
                                     </li>
                                     <li>
-                                        <a href="/wishlist">Wishlist</a>
+                                        <Link href="/wishlist">Wishlist</Link>
                                     </li>
                                     <li>
-                                        <a href="checkout">Checkout</a>
+                                        <Link href="checkout">Checkout</Link>
                                     </li>
                                 </ul>
                             </div>
-                            {/* <div
-                                className="footer-link-widget widget-install-app col  wow animate__animated animate__fadeInUp"
-                                data-wow-delay=".5s"
-                            >
-                                <h4 className="widget-title ">Install App</h4>
-                                <p className="">From App Store or Google Play</p>
-                                <div className="download-app ">
-                                    <a
-                                        href="#"
-                                        className="hover-up mb-sm-2 mb-lg-0"
-                                    >
-                                        <img
-                                            className="active"
-                                            src="/assets/imgs/theme/app-store.jpg"
-                                            alt=""
-                                        />
-                                    </a>
-                                    <a href="#" className="hover-up mb-sm-2">
-                                        <img
-                                            src="/assets/imgs/theme/google-play.jpg"
-                                            alt=""
-                                        />
-                                    </a>
-                                </div>
-                                <p className="mb-20 ">Secured Payment Gateways</p>
-                                <img
-                                    className=""
-                                    src="/assets/imgs/theme/payment-method.png"
-                                    alt=""
-                                />
-                            </div> */}
+                            
                         </div>
                     </div>
                 </section>
@@ -205,59 +146,40 @@ const Footer = () => {
                             © 2023 - Sistaas
                             </p>
                         </div>
-                        <div className="col-xl-4 col-lg-6 text-center d-none d-xl-block">
-                            {/* <div className="hotline d-lg-inline-flex mr-30">
-                                <img
-                                    src="/assets/imgs/theme/icons/phone-call.svg"
-                                    alt="hotline"
-                                />
-                                <p>
-                                    1900 - 6666<span>Working 8:00 - 22:00</span>
-                                </p>
-                            </div>
-                            <div className="hotline d-lg-inline-flex">
-                                <img
-                                    src="/assets/imgs/theme/icons/phone-call.svg"
-                                    alt="hotline"
-                                />
-                                <p>
-                                    1900 - 8888<span>24/7 Support Center</span>
-                                </p>
-                            </div> */}
-                        </div>
+                       
                         <div className="col-xl-4 col-lg-6 col-md-6 text-end d-none d-md-block">
                             <div className="mobile-social-icon">
                                 <h6>Follow Us</h6>
-                                <a href="#">
+                                <Link href="#">
                                     <img
                                         src="/assets/imgs/theme/icons/icon-facebook-white.svg"
                                         alt=""
                                     />
-                                </a>
-                                <a href="#">
+                                </Link>
+                                <Link href="#">
                                     <img
                                         src="/assets/imgs/theme/icons/icon-twitter-white.svg"
                                         alt=""
                                     />
-                                </a>
-                                <a href="#">
+                                </Link>
+                                <Link href="#">
                                     <img
                                         src="/assets/imgs/theme/icons/icon-instagram-white.svg"
                                         alt=""
                                     />
-                                </a>
-                                <a href="#">
+                                </Link>
+                                <Link href="#">
                                     <img
                                         src="/assets/imgs/theme/icons/icon-pinterest-white.svg"
                                         alt=""
                                     />
-                                </a>
-                                <a href="#">
+                                </Link>
+                                <Link href="#">
                                     <img
                                         src="/assets/imgs/theme/icons/icon-youtube-white.svg"
                                         alt=""
                                     />
-                                </a>
+                                </Link>
                             </div>
                             <p className="font-sm">
                                 Up to 15% discount on your first subscribe

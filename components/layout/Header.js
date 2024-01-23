@@ -65,101 +65,6 @@ const Header = ({
                         </span>
                       </Link>
                     </div>
-                    {/* <div className="header-action-icon-2">
-                                            <Link href="/wishlist">
-                                                <a>
-                                                    <img
-                                                        className="svgInject"
-                                                        alt="Evara"
-                                                        src="/assets/imgs/theme/icons/icon-heart.svg"
-                                                    />
-                                                    <span className="pro-count blue">
-                                                        {totalWishlistItems}
-                                                    </span>
-                                                </a>
-                                            </Link>
-                                            <Link href="/wishlist">
-                                                <span className="lable">
-                                                    Wishlist
-                                                </span>
-                                            </Link>
-                                        </div> */}
-                    {/* <div className="header-action-icon-2">
-                                            <Link href="/cart">
-                                                <a className="mini-cart-icon">
-                                                    <img
-                                                        alt="Evara"
-                                                        src="/assets/imgs/theme/icons/icon-cart.svg"
-                                                    />
-                                                    <span className="pro-count blue">
-                                                        {totalCartItems}
-                                                    </span>
-                                                </a>
-                                            </Link>
-                                            <Link href="/cart">
-                                                <a>
-                                                    <span className="lable">
-                                                        Cart
-                                                    </span>
-                                                </a>
-                                            </Link>
-                                        </div> */}
-
-                    {/* <div className="header-action-icon-2">
-                                            <Link href="#"><a>
-                                                <img
-                                                    className="svgInject"
-                                                    alt="account"
-                                                    src="/assets/imgs/theme/icons/icon-user.svg"
-                                                />
-                                            </a></Link>
-                                            <Link href="#"><a>
-                                                <span className="lable ml-0">
-                                                    Account
-                                                </span>
-                                            </a></Link>
-                                            <div className="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
-                                                <ul>
-                                                    <li>
-                                                        <Link href="/account">
-                                                            <a>
-                                                                <i className="fi fi-rs-user mr-10"></i>
-                                                                My Account
-                                                            </a></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/#"><a>
-                                                            <i className="fi fi-rs-location-alt mr-10"></i>
-                                                            Order Tracking
-                                                        </a></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/#"><a>
-                                                            <i className="fi fi-rs-label mr-10"></i>
-                                                            My Voucher
-                                                        </a></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/wishlist"><a>
-                                                            <i className="fi fi-rs-heart mr-10"></i>
-                                                            My Wishlist
-                                                        </a></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/#"><a>
-                                                            <i className="fi fi-rs-settings-sliders mr-10"></i>
-                                                            Setting
-                                                        </a></Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="/login"><a>
-                                                            <i className="fi fi-rs-sign-out mr-10"></i>
-                                                            Sign out
-                                                        </a></Link>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div> */}
                   </div>
                 </div>
               </div>
@@ -177,21 +82,19 @@ const Header = ({
             <div className="header-wrap header-space-between position-relative">
               <div className="logo logo-width-1 d-block d-lg-none">
                 <Link href="/">
-                  <a>
-                    <h1>Sistas</h1>
-                  </a>
+                  <h1>Sistas</h1>
                 </Link>
               </div>
               <div className="header-nav d-none d-lg-flex">
                 <div className="main-categori-wrap d-none d-lg-block">
-                  <a
+                  <Link
                     className="categories-button-active"
                     onClick={handleToggle}
                   >
                     <span className="fi-rs-apps"></span>
                     <span className="et">Browse</span> All Services
                     <i className="fi-rs-angle-down"></i>
-                  </a>
+                  </Link>
 
                   <div
                     className={
@@ -210,63 +113,52 @@ const Header = ({
                   <nav>
                     <ul>
                       <li className="hot-deals">
-                        {/* <img style={{ color: "black" }}
-                                                    src="/assets/imgs/theme/icons/icon-hot.svg"
-                                                    alt="hot deals"
-                                                /> */}
+
                         <Link href="/products">
-                          <a>Fashion</a>
+                          Fashion
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="#" className="active">
+                          Arts and Carft
+                          {/* <i className="fi-rs-angle-down"></i> */}
                         </Link>
                       </li>
                       <li>
                         <Link href="#">
-                          <a className="active">
-                            Arts and Carft
-                            {/* <i className="fi-rs-angle-down"></i> */}
-                          </a>
+                          Beauty
                         </Link>
                       </li>
                       <li>
                         <Link href="#">
-                          <a>Beauty</a>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          <a>
-                            Home and Decor
-                            {/* <i className="fi-rs-angle-down"></i> */}
-                          </a>
+                          Home and Decor
+                          {/* <i className="fi-rs-angle-down"></i> */}
                         </Link>
                       </li>
 
                       <li>
-                        <a href="#">
+                        <Link href="#">
                           Baby Products
                           {/* <i className="fi-rs-angle-down"></i> */}
-                        </a>
+                        </Link>
                       </li>
 
                       <li className="position-static">
                         <Link href="#">
-                          <a>
-                            Party Supplies
-                            {/* <i className="fi-rs-angle-down"></i> */}
-                          </a>
+                          Party Supplies
+                          {/* <i className="fi-rs-angle-down"></i> */}
                         </Link>
                       </li>
                       <li>
                         <Link href="#">
-                          <a>
-                            Books and Stationery
-                            {/* <i className="fi-rs-angle-down"></i> */}
-                          </a>
+                          Books and Stationery
+                          {/* <i className="fi-rs-angle-down"></i> */}
                         </Link>
                       </li>
 
                       <li>
                         <Link href="#">
-                          <a>Organic Food</a>
+                          Organic Food
                         </Link>
                       </li>
                     </ul>
@@ -297,61 +189,43 @@ const Header = ({
 
               <div className="header-action-right d-block d-lg-none">
                 <div className="header-action-2">
-                  {/* <div className="header-action-icon-2">
-                                        <Link href="/shop-wishlist">
-                                            <a>
-                                                <img
-                                                    alt="Evara"
-                                                    src="/assets/imgs/theme/icons/icon-compare.svg"
-                                                />
-                                                <span className="pro-count white">
-                                                    {totalCompareItems}
-                                                </span>
-                                            </a>
-                                        </Link>
-                                    </div> */}
+
                   <div className="header-action-icon-2">
                     <Link href="/shop-wishlist">
-                      <a>
-                        <img
-                          alt="Evara"
-                          src="/assets/imgs/theme/icons/icon-heart.svg"
-                        />
-                        <span className="pro-count white">
-                          {totalWishlistItems}
-                        </span>
-                      </a>
+                      <img
+                        alt="Evara"
+                        src="/assets/imgs/theme/icons/icon-heart.svg"
+                      />
+                      <span className="pro-count white">
+                        {totalWishlistItems}
+                      </span>
                     </Link>
                   </div>
                   <div className="header-action-icon-2">
-                    <Link href="/shop-cart">
-                      <a className="mini-cart-icon">
-                        <img
-                          alt="Evara"
-                          src="/assets/imgs/theme/icons/icon-cart.svg"
-                        />
-                        <span className="pro-count white">
-                          {totalCartItems}
-                        </span>
-                      </a>
+                    <Link href="/shop-cart" className="mini-cart-icon">
+                      <img
+                        alt="Evara"
+                        src="/assets/imgs/theme/icons/icon-cart.svg"
+                      />
+                      <span className="pro-count white">
+                        {totalCartItems}
+                      </span>
                     </Link>
                     <div className="cart-dropdown-wrap cart-dropdown-hm2">
                       <ul>
                         <li>
                           <div className="shopping-cart-img">
                             <Link href="#">
-                              <a>
-                                <img
-                                  alt="Evara"
-                                  src="/assets/imgs/shop/thumbnail-3.jpg"
-                                />
-                              </a>
+                              <img
+                                alt="Evara"
+                                src="/assets/imgs/shop/thumbnail-3.jpg"
+                              />
                             </Link>
                           </div>
                           <div className="shopping-cart-title">
                             <h4>
                               <Link href="#">
-                                <a>Plain Striola Shirts</a>
+                                Plain Striola Shirts
                               </Link>
                             </h4>
                             <h3>
@@ -361,27 +235,23 @@ const Header = ({
                           </div>
                           <div className="shopping-cart-delete">
                             <Link href="/#">
-                              <a>
-                                <i className="fi-rs-cross-small"></i>
-                              </a>
+                              <i className="fi-rs-cross-small"></i>
                             </Link>
                           </div>
                         </li>
                         <li>
                           <div className="shopping-cart-img">
                             <Link href="#">
-                              <a>
-                                <img
-                                  alt="Evara"
-                                  src="/assets/imgs/shop/thumbnail-4.jpg"
-                                />
-                              </a>
+                              <img
+                                alt="Evara"
+                                src="/assets/imgs/shop/thumbnail-4.jpg"
+                              />
                             </Link>
                           </div>
                           <div className="shopping-cart-title">
                             <h4>
                               <Link href="#">
-                                <a>Macbook Pro 2022</a>
+                                Macbook Pro 2022
                               </Link>
                             </h4>
                             <h3>
@@ -391,9 +261,7 @@ const Header = ({
                           </div>
                           <div className="shopping-cart-delete">
                             <Link href="/#">
-                              <a>
-                                <i className="fi-rs-cross-small"></i>
-                              </a>
+                              <i className="fi-rs-cross-small"></i>
                             </Link>
                           </div>
                         </li>
@@ -407,10 +275,10 @@ const Header = ({
                         </div>
                         <div className="shopping-cart-button">
                           <Link href="/shop-cart">
-                            <a>View cart</a>
+                            View cart
                           </Link>
                           <Link href="/shop-checkout">
-                            <a>Checkout</a>
+                            Checkout
                           </Link>
                         </div>
                       </div>

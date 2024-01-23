@@ -1,3 +1,4 @@
+import Link from "next/link";
 import BlogGrid from "../components/elements/BlogGrid";
 import Layout from "../components/layout/Layout";
 import BlogFilter from './../components/elements/BlogFilter';
@@ -22,42 +23,42 @@ function PageBlogGrid() {
                                     <nav aria-label="Page navigation example">
                                         <ul className="pagination justify-content-start">
                                             <li className="page-item">
-                                                <a className="page-link" href="#">
+                                                <Link className="page-link" href="#">
                                                     <i className="fi-rs-arrow-small-left"></i>
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="page-item">
-                                                <a className="page-link" href="#">
+                                                <Link className="page-link" href="#">
                                                     1
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="page-item active">
-                                                <a className="page-link" href="#">
+                                                <Link className="page-link" href="#">
                                                     2
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="page-item">
-                                                <a className="page-link" href="#">
+                                                <Link className="page-link" href="#">
                                                     3
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="page-item">
-                                                <a
+                                                <Link
                                                     className="page-link dot"
                                                     href="#"
                                                 >
                                                     ...
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="page-item">
-                                                <a className="page-link" href="#">
+                                                <Link className="page-link" href="#">
                                                     6
-                                                </a>
+                                                </Link>
                                             </li>
                                             <li className="page-item">
-                                                <a className="page-link" href="#">
+                                                <Link className="page-link" href="#">
                                                     <i className="fi-rs-arrow-small-right"></i>
-                                                </a>
+                                                </Link>
                                             </li>
                                         </ul>
                                     </nav>
