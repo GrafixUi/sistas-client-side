@@ -1,0 +1,22 @@
+<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="akar-icons:twitter-fill" clip-path="url(#clip0_827_4545)" filter="url(#filter0_i_827_4545)">
+<g id="Group">
+<path id="Vector" d="M20.3333 4.07589C19.6439 4.38134 18.9034 4.58773 18.1249 4.68102C18.9282 4.20038 19.5291 3.44389 19.8157 2.55273C19.061 3.001 18.235 3.31653 17.3737 3.48561C16.7944 2.86716 16.0272 2.45724 15.1911 2.31949C14.3551 2.18174 13.4969 2.32388 12.7499 2.72383C12.0029 3.12378 11.4088 3.75917 11.0599 4.53135C10.711 5.30353 10.6268 6.1693 10.8204 6.99424C9.29117 6.91746 7.79521 6.52 6.42956 5.82765C5.06392 5.13529 3.85912 4.16353 2.89334 2.97542C2.56312 3.54505 2.37324 4.2055 2.37324 4.90888C2.37287 5.54208 2.5288 6.16558 2.8272 6.72406C3.12559 7.28254 3.55723 7.75874 4.0838 8.11039C3.47311 8.09096 2.8759 7.92595 2.34187 7.62909V7.67863C2.34181 8.56671 2.64901 9.42747 3.21133 10.1148C3.77366 10.8022 4.55649 11.2739 5.42698 11.4498C4.86047 11.6031 4.26653 11.6257 3.69001 11.5158C3.93561 12.28 4.41402 12.9482 5.05826 13.4269C5.70251 13.9057 6.48033 14.171 7.28284 14.1857C5.92053 15.2551 4.23809 15.8352 2.50616 15.8327C2.19936 15.8328 1.89283 15.8148 1.58813 15.779C3.34614 16.9093 5.39259 17.5092 7.48263 17.5069C14.5577 17.5069 18.4254 11.6471 18.4254 6.56495C18.4254 6.39984 18.4213 6.23307 18.4139 6.06796C19.1662 5.5239 19.8156 4.85018 20.3316 4.07836L20.3333 4.07589Z" fill="#0F0E0E"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_i_827_4545" x="0.813477" y="0" width="19.8135" height="20.4669" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.653399"/>
+<feGaussianBlur stdDeviation="1.22512"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_827_4545"/>
+</filter>
+<clipPath id="clip0_827_4545">
+<rect width="19.8134" height="19.8134" fill="white" transform="translate(0.813477)"/>
+</clipPath>
+</defs>
+</svg>
