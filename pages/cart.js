@@ -43,10 +43,10 @@ const Cart = ({
                                         products in your cart
                                     </h6>
                                     <h6 className="text-body">
-                                        <Link href="#" className="text-muted">
+                                        <a href="#" className="text-muted">
                                             <i className="fi-rs-trash mr-5"></i>
                                             Clear Cart
-                                        </Link>
+                                        </a>
                                     </h6>
                                 </div>
                             </div>
@@ -90,7 +90,9 @@ const Cart = ({
                                                     <td className="product-des product-name">
                                                         <h6 className="product-name">
                                                             <Link href="/products">
+                                                                <a>
                                                                     {item.title}
+                                                                </a>
                                                             </Link>
                                                         </h6>
                                                         <div className="product-rate-cover">
@@ -1092,10 +1094,10 @@ const Cart = ({
                                                     </tbody>
                                                 </table>
                                             </div>
-                                            <Link href="#" className="btn ">
+                                            <a href="#" className="btn ">
                                                 <i className="fi-rs-box-alt mr-10"></i>
                                                 Proceed To CheckOut
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from '../components/layout/Layout'
-import Link from 'next/link'
 
 const forgotpassword = () => {
     return (
@@ -39,7 +38,7 @@ const forgotpassword = () => {
                                                         <label class="form-check-label" for="exampleCheckbox1"><span>I agree to terms & Policy.</span></label>
                                                     </div>
                                                 </div>
-                                                <Link class="text-muted" href="#">Learn more</Link>
+                                                <a class="text-muted" href="#">Learn more</a>
                                             </div>
                                             <div class="form-group">
                                                 <button type="submit" class="btn btn-heading btn-block hover-up" name="login">Reset password</button>

@@ -5674,6 +5674,7 @@ h6.post-title {
 .header-action-2 .header-action-icon-2 span.lable {
   font-size: 16px;
   margin: 5px 0 0 10px;
+  cursor: pointer;
 }
 .header-action-2 .header-action-icon-2:last-child {
   padding: 0 0px 0 8px;

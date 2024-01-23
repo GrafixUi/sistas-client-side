@@ -25,8 +25,13 @@ function Custom404() {
                                         
                                     </p>
                                     
-                                    <Link href="/" className="btn btn-default submit-auto-width font-xs hover-up mt-30"><i className="fi-rs-home mr-5"></i> Back To
-                                        Home Page</Link>
+                                    <Link href="/"><a
+                                        className="btn btn-default submit-auto-width font-xs hover-up mt-30"
+
+                                    >
+                                        <i className="fi-rs-home mr-5"></i> Back To
+                                        Home Page
+                                    </a></Link>
                                 </div>
                             </div>
                         </div>

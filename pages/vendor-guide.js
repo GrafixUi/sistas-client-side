@@ -1,5 +1,4 @@
 
-import Link from "next/link";
 import Layout from "../components/layout/Layout";
 
 function VendorGuide() {
@@ -21,7 +20,7 @@ function VendorGuide() {
                                             <img src="/assets/imgs/theme/icons/icon-1.svg" alt="" />
                                             <h4>Best Prices & Offers</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <Link href="#">Read more</Link>
+                                            <a href="#">Read more</a>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
@@ -29,7 +28,7 @@ function VendorGuide() {
                                             <img src="/assets/imgs/theme/icons/icon-2.svg" alt="" />
                                             <h4>Wide Assortment</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <Link href="#">Read more</Link>
+                                            <a href="#">Read more</a>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 mb-24">
@@ -37,7 +36,7 @@ function VendorGuide() {
                                             <img src="/assets/imgs/theme/icons/icon-3.svg" alt="" />
                                             <h4>Free Delivery</h4>
                                             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                            <Link href="#">Read more</Link>
+                                            <a href="#">Read more</a>
                                         </div>
                                     </div>
                                 </div>

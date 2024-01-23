@@ -36,8 +36,10 @@ function About () {
                       Sistas is an effort to empower women, to own their lives, to be financially abundant and
                       enjoy a lifestyle of freedom.
                     </p>
-                    <Link href="#" className="btn btn-xs">
-                      Register Now <i className="fi-rs-arrow-small-right" />
+                    <Link href="#">
+                      <a className="btn btn-xs">
+                        Register Now <i className="fi-rs-arrow-small-right" />
+                      </a>
                     </Link>
                   </div>
                 </div>

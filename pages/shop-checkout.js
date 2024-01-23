@@ -8,7 +8,6 @@ import {
     increaseQuantity,
     openCart
 } from "../redux/action/cart";
-import Link from "next/link";
 
 const Cart = ({
     openCart,
@@ -54,14 +53,14 @@ const Cart = ({
                                                 <span className="text-muted font-lg">
                                                     Already have an account?
                                                 </span>{" "}
-                                                <Link
+                                                <a
                                                     href="#loginform"
                                                     data-bs-toggle="collapse"
                                                     className="collapsed font-lg"
                                                     aria-expanded="false"
                                                 >
                                                     Click here to login
-                                                </Link>
+                                                </a>
                                             </span>
                                         </div>
                                         <div
@@ -113,9 +112,9 @@ const Cart = ({
                                                                 </label>
                                                             </div>
                                                         </div>
-                                                        <Link href="#">
+                                                        <a href="#">
                                                             Forgot password?
-                                                        </Link>
+                                                        </a>
                                                     </div>
                                                     <div className="form-group">
                                                         <button
@@ -2032,12 +2031,12 @@ const Cart = ({
                                             </div>
                                         </div>
                                     </div>
-                                    <Link
+                                    <a
                                         href="#"
                                         className="btn btn-fill-out btn-block mt-30"
                                     >
                                         Place Order
-                                    </Link>
+                                    </a>
                                 </div>
                             </div>
                         </div>

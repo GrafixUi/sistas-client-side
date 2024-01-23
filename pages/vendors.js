@@ -11,9 +11,9 @@ import { useRouter } from "next/router";
 const Blank = () => {
 
     let Router = useRouter(),
-        searchTerm = Router.query.search,
-        showLimit = 12,
-        showPagination = 4;
+    searchTerm = Router.query.search,
+    showLimit = 12,
+    showPagination = 4;
 
     const selectChange = (e) => {
         setLimit(Number(e.target.value));
@@ -66,46 +66,47 @@ const Blank = () => {
                                     <div className="vendor-wrap mb-40">
                                         <div className="vendor-img-action-wrap">
                                             <div className="vendor-img"></div>
-                                            <Link href={`vendor/${item.id}`}>
-                                                <img className="default-img" src={`assets/imgs/vendor/${item.img}`} alt="" />
-                                            </Link>
+                                                <Link href={`vendor/${item.id}`}>
+                                                    <a>
+                                                    <img className="default-img" src={`assets/imgs/vendor/${item.img}`} alt="" />
+                                                </a></Link>
+                                            </div>
+                                            <div className="product-badges product-badges-position product-badges-mrg">
+                                                <span className="hot">Mall</span>
+                                            </div>
                                         </div>
-                                        <div className="product-badges product-badges-position product-badges-mrg">
-                                            <span className="hot">Mall</span>
-                                        </div>
-                                    </div>
-                                    <div className="vendor-content-wrap">
-                                        <div className="d-flex justify-content-between align-items-end mb-30">
-                                            <div>
-                                                <div className="product-category">
-                                                    <span className="text-muted">Since 2012</span>
-                                                </div>
-                                                <h4 className="mb-5">
-                                                    <Link href={`vendor/${item.id}`}>{item.title}</Link></h4>
-
-                                                <div className="product-rate-cover">
-                                                    <div className="product-rate d-inline-block">
-                                                        <div className="product-rating" style={{ "width": "90%" }}></div>
+                                        <div className="vendor-content-wrap">
+                                            <div className="d-flex justify-content-between align-items-end mb-30">
+                                                <div>
+                                                    <div className="product-category">
+                                                        <span className="text-muted">Since 2012</span>
                                                     </div>
-                                                    <span className="font-small ml-5 text-muted"> (4.0)</span>
+                                                    <h4 className="mb-5">
+                                                        <Link href={`vendor/${item.id}`}><a>{item.title}</a></Link></h4>
+
+                                                    <div className="product-rate-cover">
+                                                        <div className="product-rate d-inline-block">
+                                                            <div className="product-rating" style={{ "width": "90%" }}></div>
+                                                        </div>
+                                                        <span className="font-small ml-5 text-muted"> (4.0)</span>
+                                                    </div>
+                                                </div>
+
+                                                <div className="mb-10">
+                                                    <span className="font-small total-product">380 products</span>
                                                 </div>
                                             </div>
 
-                                            <div className="mb-10">
-                                                <span className="font-small total-product">380 products</span>
+                                            <div className="vendor-info mb-3">
+                                                <ul className="contact-infor text-muted">
+                                                    <li><img src="/assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong> <span>5171 W Campbell Ave undefined Kent, Utah 53127 United States</span></li>
+                                                    <li><img src="/assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Call Us:</strong><span>(+91) - 540-025-124553</span></li>
+                                                </ul>
                                             </div>
+                                            <Link href={`vendor/${item.id}`}><a className="btn btn-xs mb-20">Visit Store <i className="fi-rs-arrow-small-right"></i></a></Link>
                                         </div>
-
-                                        <div className="vendor-info mb-3">
-                                            <ul className="contact-infor text-muted">
-                                                <li><img src="/assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong> <span>5171 W Campbell Ave undefined Kent, Utah 53127 United States</span></li>
-                                                <li><img src="/assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Call Us:</strong><span>(+91) - 540-025-124553</span></li>
-                                            </ul>
-                                        </div>
-                                        <Link href={`vendor/${item.id}`} className="btn btn-xs mb-20">Visit Store <i className="fi-rs-arrow-small-right"></i></Link>
                                     </div>
-                                </div>
-
+                                
 
                             ))}
                         </div>
@@ -113,15 +114,15 @@ const Blank = () => {
                             <nav aria-label="Page navigation example">
                                 <ul className="pagination justify-content-start">
                                     <li className="page-item">
-                                        <Link className="page-link" href="#"><i className="fi-rs-arrow-small-left"></i></Link>
+                                        <a className="page-link" href="#"><i className="fi-rs-arrow-small-left"></i></a>
                                     </li>
-                                    <li className="page-item"><Link className="page-link" href="#">1</Link></li>
+                                    <li className="page-item"><a className="page-link" href="#">1</a></li>
                                     <li className="page-item active"><a className="page-link" href="#">2</a></li>
-                                    <li className="page-item"><Link className="page-link" href="#">3</Link></li>
-                                    <li className="page-item"><Link className="page-link dot" href="#">...</Link></li>
-                                    <li className="page-item"><Link className="page-link" href="#">6</Link></li>
+                                    <li className="page-item"><a className="page-link" href="#">3</a></li>
+                                    <li className="page-item"><a className="page-link dot" href="#">...</a></li>
+                                    <li className="page-item"><a className="page-link" href="#">6</a></li>
                                     <li className="page-item">
-                                        <Link className="page-link" href="#"><i className="fi-rs-arrow-small-right"></i></Link>
+                                        <a className="page-link" href="#"><i className="fi-rs-arrow-small-right"></i></a>
                                     </li>
                                 </ul>
                             </nav>

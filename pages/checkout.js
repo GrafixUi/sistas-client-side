@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from '../components/layout/Layout'
-import Link from 'next/link'
 
 const checkout = () => {
     return (
@@ -21,7 +20,7 @@ const checkout = () => {
                             <div class="row mb-50">
                                 <div class="col-lg-6 mb-sm-15 mb-lg-0 mb-md-3">
                                     <div class="toggle_info">
-                                        <span><i class="fi-rs-user mr-10"></i><span class="text-muted font-lg">Already have an account?</span> <Link href="/page-login" data-bs-toggle="collapse" class="collapsed font-lg" aria-expanded="false">Click here to login</Link></span>
+                                        <span><i class="fi-rs-user mr-10"></i><span class="text-muted font-lg">Already have an account?</span> <a href="/page-login" data-bs-toggle="collapse" class="collapsed font-lg" aria-expanded="false">Click here to login</a></span>
                                     </div>
                                     <div class="panel-collapse collapse login_form" id="loginform">
                                         <div class="panel-body">
@@ -40,7 +39,7 @@ const checkout = () => {
                                                                 <label class="form-check-label" for="remember"><span>Remember me</span></label>
                                                         </div>
                                                     </div>
-                                                    <Link href="#">Forgot password?</Link>
+                                                    <a href="#">Forgot password?</a>
                                                 </div>
                                                 <div class="form-group">
                                                     <button class="btn btn-md" name="login">Log in</button>
@@ -678,7 +677,7 @@ const checkout = () => {
                                             <tr>
                                                 <td class="image product-thumbnail"><img src="assets/imgs/shop/product-1-1.jpg" alt="#"/></td>
                                                 <td>
-                                                    <h6 class="w-160 mb-5"><Link href="shop-product-full.html" class="text-heading">Yidarton Women Summer Blue</Link></h6>
+                                                    <h6 class="w-160 mb-5"><a href="shop-product-full.html" class="text-heading">Yidarton Women Summer Blue</a></h6>
                                                 <div class="product-rate-cover">
                                                     <div class="product-rate d-inline-block">
                                                         <div class="product-rating" >
@@ -697,7 +696,7 @@ const checkout = () => {
                                         <tr>
                                             <td class="image product-thumbnail"><img src="assets/imgs/shop/product-2-1.jpg" alt="#"/></td>
                                             <td>
-                                                <h6 class="w-160 mb-5"><Link href="shop-product-full.html" class="text-heading">Seeds of Change Organic Quinoa</Link></h6>
+                                                <h6 class="w-160 mb-5"><a href="shop-product-full.html" class="text-heading">Seeds of Change Organic Quinoa</a></h6>
                                             <div class="product-rate-cover">
                                                 <div class="product-rate d-inline-block">
                                                     <div class="product-rating">
@@ -716,7 +715,7 @@ const checkout = () => {
                                     <tr>
                                         <td class="image product-thumbnail"><img src="assets/imgs/shop/product-3-1.jpg" alt="#"/></td>
                                         <td>
-                                            <h6 class="w-160 mb-5"><Link href="shop-product-full.html" class="text-heading">Angie’s Boomchickapop Sweet </Link></h6>
+                                            <h6 class="w-160 mb-5"><a href="shop-product-full.html" class="text-heading">Angie’s Boomchickapop Sweet </a></h6>
                                         <div class="product-rate-cover">
                                             <div class="product-rate d-inline-block">
                                                 <div class="product-rating" >
@@ -758,7 +757,7 @@ const checkout = () => {
                             <img class="mr-15" src="assets/imgs/theme/icons/payment-master.svg" alt="" />
                             <img src="assets/imgs/theme/icons/payment-zapper.svg" alt=""/>
                             </div>
-                            <Link href="#" class="btn btn-fill-out btn-block mt-30">Place an Order<i class="fi-rs-sign-out ml-15"></i></Link>
+                            <a href="#" class="btn btn-fill-out btn-block mt-30">Place an Order<i class="fi-rs-sign-out ml-15"></i></a>
                     </div>
                 </div>
             </div>
