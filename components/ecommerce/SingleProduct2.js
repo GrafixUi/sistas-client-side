@@ -115,16 +115,7 @@ const SingleProduct2 = ({
                         <span>{product.price} </span>
                         <span className="old-price">{product.oldPrice && `$ ${product.oldPrice}`}</span>
                     </div>
-                    <div className="sold mt-15 mb-15">
-                        <div className="progress mb-5">
-                            <div
-                                className="progress-bar"
-                                role="progressbar"
-                                style={{ width: "50%" }}
-                            ></div>
-                        </div>
-                        <span className="font-xs text-heading"> Sold: 90/120</span>
-                    </div>
+                    
 
                     <a
                         className="btn w-100 hover-up"

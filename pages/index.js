@@ -59,6 +59,7 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
+                
 
                 <section className="newsletter mb-15  wow animate__animated animate__fadeIn">
                     <div className="container">

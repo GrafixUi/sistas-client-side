@@ -130,7 +130,7 @@ const Products = ({ products, productFilters, fetchProduct }) => {
                             </div>
                             <div className="col-lg-1-5 primary-sidebar sticky-sidebar">
                             
-                                <div className="sidebar-widget price_range range mb-30">
+                                <div className="sidebar-widget  range mb-30">
                                 <h5 className="section-title style-1 mb-30">Fill by price</h5>
 
                                     <div className="price-filter">

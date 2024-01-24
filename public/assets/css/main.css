@@ -1,31 +1,4 @@
-/***
- Theme Name: Nest
- Description: Grocery, Super Market, eCommerce HTML Template
- Version: 1.0
- License: GNU General Public License v2 or later
- License URI: http://www.gnu.org/licenses/gpl-2.0.html
-==============================
-TABLE CONTENT
- Import Google Fonts
- Include Third Party CSS Library
- GENERAL
- HEADER
- Offcanvas Sidebar
- Search form
- Main header
- Mega menu
- Header layouts
- Page layouts
- Pagination
- Breadcrumb
- CATEGORY PAGES
- SINGLE POST
- Author box
- comment
- Post share social
- WP STYPE
- Custom amine
-***/
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@400;500;600;700&display=swap");
 /*import vendors*/
 @import url(vendors/bootstrap.min.css);
@@ -442,6 +415,8 @@ input[type=number]:focus,
 .box-shadow-outer-3, .box-hover-shadow-outer-3:hover {
   box-shadow: 0 5px 16px 0 rgba(118, 126, 173, 0.09);
 }
+
+
 
 /*****************************
 *********  BORDER  *****
@@ -1642,7 +1617,7 @@ label {
   position: relative;
 }
 .hero-slider-1 .single-hero-slider {
-  height: 538px;
+  
   border-radius: 30px;
   background-size: cover;
   background-position: center center;

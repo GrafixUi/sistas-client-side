@@ -177,9 +177,7 @@ const Header = ({
             <div className="header-wrap header-space-between position-relative">
               <div className="logo logo-width-1 d-block d-lg-none">
                 <Link href="/">
-                 
-                    <h1>Sistas</h1>
-                 
+                  <h1>Sistas</h1>
                 </Link>
               </div>
               <div className="header-nav d-none d-lg-flex">
@@ -189,7 +187,7 @@ const Header = ({
                     onClick={handleToggle}
                   >
                     <span className="fi-rs-apps"></span>
-                    <span className="et">Browse</span> All Services
+                    <span className="et"></span> All Services
                     <i className="fi-rs-angle-down"></i>
                   </a>
 
@@ -220,7 +218,7 @@ const Header = ({
                       </li>
                       <li>
                         <Link href="#">
-                          <a className="active">
+                          <a className="">
                             Arts and Carft
                             {/* <i className="fi-rs-angle-down"></i> */}
                           </a>
@@ -273,16 +271,7 @@ const Header = ({
                   </nav>
                 </div>
               </div>
-              <div className="hotline d-none d-lg-flex">
-                <img
-                  src="/assets/imgs/theme/icons/icon-headphone.svg"
-                  alt="hotline"
-                />
-
-                <p>
-                  1900 - 888<span>24/7 Support Center</span>
-                </p>
-              </div>
+              
 
               <div className="header-action-icon-2 d-block d-lg-none">
                 <div

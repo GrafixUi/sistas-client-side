@@ -41,6 +41,10 @@ function FeatchTabSlider() {
         featuredProduct();
     }, []);
 
+    var sectionStyle = {
+        backgroundImage: "url(https://img.freepik.com/free-photo/cute-woman-bright-hat-purple-blouse-is-leaning-stand-with-dresses-posing-with-package-isolated-background_197531-17610.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1705104000&semt=ais)"
+      };
+
     return (
         <>
             <div className="section-title wow animate__animated animate__fadeIn">
@@ -48,8 +52,8 @@ function FeatchTabSlider() {
             </div>
 
             <div className="row">
-                <div className="col-lg-3 d-none d-lg-flex wow animate__animated animate__fadeIn">
-                    <div className="banner-img style-2">
+                <div className="col-lg-3 d-none d-lg-flex wow animate__animated animate__fadeIn" >
+                    <div className="banner-img style-2" style={ sectionStyle }>
                         <div className="banner-text">
                             <h2 className="mb-100">Bring nature into your home</h2>
 
@@ -69,7 +73,7 @@ function FeatchTabSlider() {
                             </div>
                         </div>
 
-                        <div className={active === "2" ? "tab-pane fade show active" : "tab-pane fade"}>
+                        {/* <div className={active === "2" ? "tab-pane fade show active" : "tab-pane fade"}>
                             <div className="carausel-4-columns-cover card-product-small arrow-center position-relative">
                                 <TrendingSlider products={trending} />
                             </div>
@@ -78,7 +82,7 @@ function FeatchTabSlider() {
                             <div className="carausel-4-columns-cover card-product-small arrow-center position-relative">
                                 <NewArrivalTabSlider products={newArrival} />
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
