@@ -7,9 +7,9 @@ const Tags = ({ updateProductFilters }) => {
     const router = useRouter();
     const tags = [
         { value: "" },
-        { value: "New Arrivals" },
-        { value: "Ginger" },
-        { value: "Plus Size" },
+        { value: "Classy Fashion" },
+        { value: "Rennede Crop Tops" },
+        { value: "Premium Tops" },
     ];
     const [selectedTags, setTags] = useState([]);
     const [active, setActive] = useState(0);

@@ -1,6 +1,6 @@
 import SwiperCore, { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SingleProduct2 from "./../ecommerce/SingleProduct2";
+import SingleProduct2 from "./../ecommerce/SingleProduct3";
 
 SwiperCore.use([Navigation]);
 

@@ -1858,10 +1858,14 @@ label {
 .carausel-10-columns-cover .carausel-10-columns {
   overflow: hidden;
   margin: 0 -12px;
+  align-items: center;
+  justify-content: center;
 }
 .carausel-10-columns-cover .carausel-10-columns .card-2 {
   margin-right: 12px;
   margin-left: 12px;
+  align-items: center;
+  justify-content: center;
 }
 
 .carausel-4-columns-cover .carausel-4-columns {
@@ -7459,7 +7463,7 @@ span.fi-rs-apps {
 }
 
 .price_range {
-  background: url(../imgs/banner/fillter-widget-bg.png) no-repeat right bottom;
+  /* background: url(../imgs/banner/fillter-widget-bg.png) no-repeat right bottom; */
   background-size: 150px;
 }
 
@@ -7760,7 +7764,7 @@ span.fi-rs-apps {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-left: 100px;
+  margin-left: 120px;
   cursor: pointer;
 }
 /*newsletter*/

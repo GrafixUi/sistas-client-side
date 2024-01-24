@@ -70,13 +70,14 @@ const Intro4 = () => {
           >
             <div className="single-hero-slider single-animation-wrap">
               <div className="slider-content">
-                
-                <h5 className="display-2 mb-40" style={{ color: "white" }}>
+              <h6 className="mb-40">WELCOME TO SISTAS</h6>
+                <h5 className="display-2 mb-30" style={{ color: "black" }}>
                   Welcome | A COMMUNITY OF <br />
                   WOMEN-OWNED BRANDS
                 </h5>
+
                 <form className="form-subcriber d-flex">
-                  <input type="email" placeholder="Your emaill address" />
+                  <input type="email" placeholder="Your email address" />
                   <button
                     className="btn"
                     type="submit"
