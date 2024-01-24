@@ -7741,6 +7741,28 @@ span.fi-rs-apps {
   max-width: 150px;
 }
 
+/* how it work*/
+.worksection{
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.worksection-row{
+  padding-top: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.description{
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 100px;
+  cursor: pointer;
+}
 /*newsletter*/
 footer .mobile-social-icon {
   display: flex;

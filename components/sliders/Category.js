@@ -8,14 +8,14 @@ SwiperCore.use([Navigation, Autoplay]);
 const data = [
     {
         id: 1,
-        title: "Legal",
+        title: "Pet",
         slug: "jeans",
         img: "cat-13.png",
         bg: "bg-9"
     },
     {
         id: 2,
-        title: "Accounting",
+        title: "Designs",
         slug: "shoe",
         img: "cat-12.png",
         bg: "bg-10"
@@ -29,19 +29,19 @@ const data = [
     },
     {
         id: 4,
-        title: "Coach",
+        title: "Creatives",
         img: "cat-9.png",
         bg: "bg-12"
     },
     {
         id: 5,
-        title: "Therapist",
+        title: "Accounting",
         img: "cat-3.png",
         bg: "bg-13"
     },
     {
         id: 6,
-        title: "Pets",
+        title: "Legal",
         img: "cat-1.png",
         bg: "bg-14"
     },
@@ -53,13 +53,13 @@ const data = [
     },
     {
         id: 8,
-        title: "Designs",
+        title: "Therapist",
         img: "cat-4.png",
         bg: "bg-12"
     },
     {
         id: 9,
-        title: "Creatives",
+        title: "Coach",
         img: "cat-5.png",
         bg: "bg-10"
     },
@@ -69,12 +69,6 @@ const data = [
         img: "cat-14.png",
         bg: "bg-12"
     },
-    {
-        id: 11,
-        title: "Organic Food",
-        img: "cat-15.png",
-        bg: "bg-11"
-    }
 ];
 const CategorySlider = () => {
 
