@@ -2,7 +2,7 @@
 import SingleProduct from "../ecommerce/SingleProduct";
 
 const FeaturedTab = ({ products }) => {
-    const showItem= 10
+    const showItem= 5
     return (
         <>
             {products.slice(0, showItem).map((product, i) => (

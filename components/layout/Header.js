@@ -177,9 +177,9 @@ const Header = ({
             <div className="header-wrap header-space-between position-relative">
               <div className="logo logo-width-1 d-block d-lg-none">
                 <Link href="/">
-                  <a>
+                 
                     <h1>Sistas</h1>
-                  </a>
+                 
                 </Link>
               </div>
               <div className="header-nav d-none d-lg-flex">
