@@ -10535,4 +10535,7 @@ footer .hotline img {
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+.footer{
+  background-color: #101621;
+  color: #ffff !important;
+}
