@@ -22,20 +22,20 @@ const Intro4 = () => {
           prevEl: ".custom_prev_i3",
           nextEl: ".custom_next_i3",
         }}
-        className="hero-slider-1 style-4 dot-style-1 dot-style-1-position-1"
+        className="hero-slider-1 style-4 dot-style-1 dot-style-1-position-1 px-3"
       >
         <SwiperSlide>
           <section
-            className="row mb-50"
+            className="row"
             style={{
               background: "",
             }}
           >
             <div className="single-hero-slider single-animation-wrap">
               <div class="banner-circle-shape2 sal-animate" data-sal="slide-down" data-sal-duration="800" data-sal-delay="100"></div>
-              <div className="slider-content">
-                <h6 className="mb-40" style={{ color: "orange" }}>WELCOME TO SISTAS</h6>
-                <h5 className="display-2 mb-30" style={{ color: "black" }}>
+              <div className="slider-content" style={{marginTop:"-5%"}}>
+                <h6 className="" style={{ color: "orange" }}>WELCOME TO SISTAS</h6>
+                <h5 className="display-2 " style={{ color: "black" ,paddingTop:"20px",paddingBottom:"20px"}}>
                   Welcome | A COMMUNITY OF
                   <Typewriter
                     options={{
@@ -66,8 +66,8 @@ const Intro4 = () => {
                 style={{ maxWidth: "100%", height: "auto" }}
               />
             </div>
-            <div class="banner_frame">
-                <img class="frame_2" src="https://sistas.in/assets/images/icons/banner_frame2.png" alt="Frame"/>
+            <div class="banner_frame" style={{marginTop: "-15%"}}>
+                <img class="frame_2" src="https://sistas.in/assets/images/icons/banner_frame2.png" width={120}  height={150} alt="Frame"/>
             </div>
           </section>
         </SwiperSlide>
@@ -121,6 +121,7 @@ const Intro4 = () => {
     .row {
         display: flex;
         flex-direction: column;
+        width:90%;
     }
 
     @media (min-width: 768px) {
@@ -131,7 +132,7 @@ const Intro4 = () => {
 
         .single-hero-slider {
             flex: 1;
-            margin-right: 450px; /* Adjust the margin as needed */
+            margin-right: 450px; 
         }
 
         .py-1 {

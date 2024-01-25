@@ -24,11 +24,14 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="popular-categories section-padding">
+        <section className="mb-25 mt-50  " style={{display:"flex",justifyContent:"center"}}>
+          <img src="https://theputchi.com/cdn/shop/files/Tunics_699_Offer_banner_-_WEB.webp?v=1705552922&width=2000" alt="" />
+        </section>
+        <section className="popular-categories section-padding px-5">
           <div className="container wow animate__fadeIn animate__animated">
             <div className="section-title">
               <div className="title">
-                <h3>Our Product</h3>
+                <h3>Latest Arrivals</h3>
               </div>
             </div>
             <div className="px-12 carausel-10-columns-cover position-relative">
@@ -40,7 +43,7 @@ export default function Home() {
         </section>
 
         <section className="banners mb-25 mt-50">
-        <div className="row">
+        <div className="">
               <Steps />
             </div>
         </section>
@@ -64,6 +67,9 @@ export default function Home() {
               <Banner5 />
             </div>
           </div>
+        </section>
+        <section className="mb-25 mt-50" style={{display:"flex",justifyContent:"center"}}>
+          <img src="https://theputchi.com/cdn/shop/files/Compression_socks_-_pack_of_2_-_399_-_WEB_2.webp?v=1705656870&width=2000" alt="" />
         </section>
 
         <section className="newsletter mb-15  wow animate__animated animate__fadeIn">
@@ -178,6 +184,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        
         <QuickView />
       </Layout>
     </>

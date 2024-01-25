@@ -27,7 +27,7 @@ const Header = ({
 
   return (
     <>
-      <header className="header-area header-style-1 header-height-2">
+      <header className="header-area header-style-1 header-height-2 px-5">
         <div className="header-middle header-middle-ptb-1 d-none d-lg-block">
           <div className="container">
             <div className="header-wrap">
@@ -43,18 +43,7 @@ const Header = ({
                 <div className="header-action-right">
                   <div className="header-action-2">
                     <div className="header-action-icon-2 gap-5">
-                      {/* <Link href="/compare">
-                                                <a>
-                                                    <img
-                                                        className="svgInject"
-                                                        alt="Evara"
-                                                        src="/assets/imgs/theme/icons/icon-compare.svg"
-                                                    />
-                                                    <span className="pro-count blue">
-                                                        {totalCompareItems}
-                                                    </span>
-                                                </a>
-                                            </Link> */}
+                    
                       <Link href="/sell">
                         <span className="lable ml-0">Sell On Sistas</span>
                       </Link>
@@ -173,7 +162,7 @@ const Header = ({
               : "header-bottom header-bottom-bg-color sticky-bar"
           }
         >
-          <div className="container">
+          <div className="container ">
             <div className="header-wrap header-space-between position-relative">
               <div className="logo logo-width-1 d-block d-lg-none">
                 <Link href="/">
