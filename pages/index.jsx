@@ -3,13 +3,13 @@ import FeatchDeals from "../components/ecommerce/fetchDeals";
 import FeatchTab from "../components/ecommerce/fetchTab";
 import FetchTabSlider from "../components/ecommerce/fetchTabSlider";
 import Bottom from "../components/elements/Bottom";
-import QuickView from "./../components/ecommerce/QuickView";
-import Banner5 from "./../components/elements/Banner5";
-import Deals1 from "./../components/elements/Deals1";
-import IntroPopup from "./../components/elements/IntroPopup";
-import Layout from "./../components/layout/Layout";
-import CategorySlider from "./../components/sliders/Category";
-import Intro1 from "./../components/sliders/Intro1";
+import QuickView from "../components/ecommerce/QuickView";
+import Banner5 from "../components/elements/Banner5";
+import Deals1 from "../components/elements/Deals1";
+import IntroPopup from "../components/elements/IntroPopup";
+import Layout from "../components/layout/Layout";
+import CategorySlider from "../components/sliders/Category";
+import Intro1 from "../components/sliders/Intro1";
 import Link from "next/link";
 
 export default function Home() {
@@ -184,22 +184,37 @@ export default function Home() {
                 <h3>Our Services</h3>
               </div>
             </div>
-            <div className="carausel-10-columns-cover position-relative row">
+            <div className="carausel-10-columns-cover position-relative">
               <div className="carausel-10-columns" id="carausel-10-columns">
-                <div className="row">
-                  <div class="card-new">
-                    <h1>Card</h1>
-                    <p>1</p>
+                  <div className="cards-new">
+                     <div className="card-new" style={{ backgroundColor: "#00732e"}}>
+                      <div style={{marginBottom:"10px" , height:"50px"}}><h2>Website Development</h2></div>
+                      <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_550,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156477/website-development.png" alt="" />
+                     </div>
+                     {/* card 2 */}
+                     <div className="card-new" style={{ backgroundColor: "#ff7640"}}>
+                     <div style={{marginBottom:"10px" , height:"50px"}}><h2>Logo Design</h2></div>
+                      <img style={{bottom:"1"}} src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_550,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156494/logo-design.png" alt="" />
+                     </div>
+
+                     {/* card 3 */}
+                     <div className="card-new" style={{ backgroundColor: "#003912"}}>
+                     <div style={{marginBottom:"10px" , height:"50px"}}><h2>Seo</h2></div>
+                      <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156488/seo.png" alt="" />
+                     </div>
+                     {/* card 4 */}
+                     <div className="card-new" style={{ backgroundColor: "#00732e"}}>
+                     <div style={{marginBottom:"10px" , height:"50px"}}><h2>Social media Design</h2></div>
+                      <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_550,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156477/website-development.png" alt="" />
+                     </div>
+                     {/* card 5 */}
+                     <div className="card-new" style={{ backgroundColor: "#00732e"}}>
+                     <div style={{marginBottom:"10px" , height:"50px"}}><h2>Social media Design</h2></div>
+                      <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_550,dpr_1.0/v1/attachments/generic_asset/asset/798403f5b92b1b5af997acc704a3d21c-1702465156477/website-development.png" alt="" />
+                     </div>
+
                   </div>
-                  <div class="card-new">
-                    <h1>Card</h1>
-                    <p>2</p>
-                  </div>
-                  <div class="card-new">
-                    <h1>Card</h1>
-                    <p>3</p>
-                  </div>
-                </div>
+                  
               </div>
             </div>
           </div>
