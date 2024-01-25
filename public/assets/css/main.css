@@ -3366,7 +3366,7 @@ table .product-thumbnail img {
   position: relative;
   background-color: #fff;
   overflow: hidden;
-  max-height: 320px;
+  max-height: 250px;
   padding: 25px 25px 0 25px;
 }
 .product-cart-wrap .product-img-action-wrap .product-action-1 {
@@ -6735,7 +6735,7 @@ h6.post-title {
   font-family: uicons-regular-straight !important;
   content: "\f1c6";
   color: #B6B6B6;
-  margin-right: 7px;
+  margin-right: 10px;
   display: inline-block;
 }
 .header-style-1 .search-location .select2-container {
@@ -9690,7 +9690,7 @@ footer .hotline img {
     align-items: start;
   }
   .product-list .product-cart-wrap .product-img-action-wrap {
-    max-width: 45%;
+    max-width: 40%;
   }
   .product-list .product-cart-wrap h2 {
     font-size: 24px;
@@ -9735,7 +9735,7 @@ footer .hotline img {
     margin-left: 15px;
   }
   .product-cart-wrap .product-img-action-wrap .product-action-1 {
-    min-width: 111px;
+    min-width: 100px;
   }
   .custom-modal .modal-dialog {
     max-width: 720px !important;
@@ -9954,7 +9954,7 @@ footer .hotline img {
 }
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1610px;
+    max-width: 1500px;
   }
   .col-lg-1-5 {
     width: 20%;
@@ -10564,4 +10564,56 @@ footer .hotline img {
 .footer{
   background-color: #101621;
   color: #ffff !important;
+}
+
+
+.card-new{
+  width: 250px;
+  height: 250px;
+  margin: 2em;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.card-new:hover{
+  color:white;
+}
+
+.card-new::before, .card-new::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(243,243,243);
+  z-index: -1;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+.card-new::after{
+  background: #f8485e;
+  transform-origin: right bottom;
+  transform : translate(10%,10%) scale(0.3);
+  border-radius: 50%;
+  transition: all 1s;
+}
+
+.card-new:hover::after{
+  transform: translate(0) scale(1);
+  border-radius: 0;
+  border-radius: 10px;
+}
+
+.card-new:hover::before{
+  transform-origin: right bottom;
+  transform: translate(10%,10%) scale(0.3);
+  border-radius: 50%;
+  z-index: 1;
 }

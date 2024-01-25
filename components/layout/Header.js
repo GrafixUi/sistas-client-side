@@ -42,7 +42,7 @@ const Header = ({
                 </div>
                 <div className="header-action-right">
                   <div className="header-action-2">
-                    <div className="header-action-icon-2 gap-3">
+                    <div className="header-action-icon-2 gap-5">
                       {/* <Link href="/compare">
                                                 <a>
                                                     <img
@@ -187,7 +187,7 @@ const Header = ({
                     onClick={handleToggle}
                   >
                     <span className="fi-rs-apps"></span>
-                    <span className="et"></span> All Services
+                    <span className="" style={{ fontSize:"12px" , width:"70px"}}>All Services</span> 
                     <i className="fi-rs-angle-down"></i>
                   </a>
 

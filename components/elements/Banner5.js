@@ -17,7 +17,7 @@ const Banner5 = () => {
                     className="banner-img wow animate__animated animate__fadeInUp"
                     data-wow-delay=".2s"
                 >
-                    <img className=" ml-40" src="https://i.pinimg.com/originals/76/6d/c1/766dc1665abbab147def72fe48c9795e.jpg" alt="" height={310} />
+                    <img className=" " src="https://i.pinimg.com/originals/76/6d/c1/766dc1665abbab147def72fe48c9795e.jpg" alt="" height={310} />
                 </div>
             </div>
             <div className="col-lg-4 d-md-none d-lg-flex">
