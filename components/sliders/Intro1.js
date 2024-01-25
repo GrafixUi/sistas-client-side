@@ -2,7 +2,7 @@ import SwiperCore, { EffectFade, Navigation, Pagination } from "swiper";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Typewriter  from "typewriter-effect";
 SwiperCore.use([Navigation, Pagination, EffectFade]);
 
 const Intro4 = () => {
@@ -33,12 +33,18 @@ const Intro4 = () => {
           >
             <div className="single-hero-slider single-animation-wrap">
               <div className="slider-content">
-              <h6 className="mb-40">WELCOME TO SISTAS</h6>
+                <h6 className="mb-40" style={{ color: "orange" }}>WELCOME TO SISTAS</h6>
                 <h5 className="display-2 mb-30" style={{ color: "black" }}>
-                  Welcome | A COMMUNITY OF <br />
-                  WOMEN-OWNED BRANDS
+                Welcome | A COMMUNITY OF
+                  <Typewriter
+                    options={{
+                      autoStart: true,
+                      loop:true,
+                      delay:30,
+                      strings:["  WOMEN-OWNED BRANDS"]
+                    }}
+                  />
                 </h5>
-
                 <form className="form-subcriber d-flex">
                   <input type="email" placeholder="Your email address" />
                   <button
@@ -61,7 +67,7 @@ const Intro4 = () => {
             </div>
           </section>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <section
             className="row align-items-center mb-50"
             style={{
@@ -96,17 +102,17 @@ const Intro4 = () => {
               />
             </div>
           </section>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
 
-      <div className="slider-arrow hero-slider-1-arrow">
+      {/* <div className="slider-arrow hero-slider-1-arrow">
         <span className="slider-btn slider-prev slick-arrow custom_prev_i3">
           <i className="fi-rs-angle-left"></i>
         </span>
         <span className="slider-btn slider-next slick-arrow custom_next_i3">
           <i className="fi-rs-angle-right"></i>
         </span>
-      </div>
+      </div> */}
       <style jsx>{`
     .row {
         display: flex;

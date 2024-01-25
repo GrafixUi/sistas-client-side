@@ -1730,6 +1730,8 @@ label {
 
 .hero-slider-1 {
   position: relative;
+  /* background-image: url(https://sistas.in/assets/images/icons/banner_frame2.png) ; */
+
 }
 .hero-slider-1 .single-hero-slider {
   border-radius: 30px;
@@ -8339,15 +8341,17 @@ span.fi-rs-apps {
   align-items: center;
   justify-content: center;
 }
-
-.description {
+.sc-service-content-box {
   width: 300px;
+  margin: auto;
+}
+.description {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-left: 120px;
   cursor: pointer;
 }
+
 /*newsletter*/
 footer .mobile-social-icon {
   display: flex;
@@ -8373,11 +8377,14 @@ footer .hotline img {
   position: relative;
 }
 .newsletter .newsletter-inner {
-  background: url(../imgs/banner/banner-10.png) no-repeat center;
+  background-color: #fd810ed7;
+  /* background: url(../imgs/banner/banner-10.png) no-repeat center; */
   background-size: cover;
   padding: 84px 78px;
   clear: both;
-  display: table;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   border-radius: 20px;
   overflow: hidden;
@@ -8467,6 +8474,7 @@ footer .hotline img {
 .footer-list li {
   display: block;
   margin: 0 0 13px;
+  color: white;
   transition-duration: 0.3s;
 }
 .footer-list li:last-child {
@@ -8478,7 +8486,7 @@ footer .hotline img {
 }
 .footer-list li a {
   font-size: 15px;
-  color: #253d4e;
+  color: white;
   display: block;
 }
 .footer-list li a:hover {
@@ -8513,6 +8521,7 @@ footer .hotline img {
 
 .footer-mid .widget-title {
   margin: 15px 0 20px 0;
+  color: white;
 }
 
 /*LAYOUT -> SPACING**/
@@ -10378,6 +10387,9 @@ footer .hotline img {
   .header-style-5 .search-style-2 {
     display: none;
   }
+  .worksection{
+    height: 700px;
+  }
 }
 /*Tablet*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -11166,6 +11178,9 @@ footer .hotline img {
   .archive-header-3 .archive-header-3-inner {
     display: block;
   }
+  .worksection{
+    height: 800px;
+  }
 }
 /*phone landscape*/
 @media only screen and (min-width: 480px) and (max-width: 667px) {
@@ -11181,6 +11196,10 @@ footer .hotline img {
   .modal-open .modal {
     padding-right: 0 !important;
   }
+  .worksection{
+    height: 800px;
+  }
+  
 }
 /*small phone*/
 @media only screen and (max-width: 375px) {

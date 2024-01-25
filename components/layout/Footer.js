@@ -16,14 +16,14 @@ const Footer = () => {
                   <div className="logo  mb-30">
                     <Link href="/">
                       <a className="mb-15">
-                        <h1>Sistas</h1>
+                        <h1 style={{color:"white"}}>Sistas</h1>
                       </a>
                     </Link>
-                    <p className="font-lg text-heading">
+                    <p className="font-lg text-heading" style={{color:"white"}}>
                       Welcome to Sistas: Empowering Women Entrepreneurs
                     </p>
                   </div>
-                  <ul className="contact-infor">
+                  <ul className="contact-infor" style={{color:"white"}}>
                     <li>
                       <img
                         src="/assets/imgs/theme/icons/icon-email-2.svg"
@@ -38,7 +38,7 @@ const Footer = () => {
               </div>
               <div
                 className="footer-link-widget col  wow animate__animated animate__fadeInUp"
-                data-wow-delay=".1s"
+                data-wow-delay=".1s" style={{color:"white"}}
               >
                 <h4 className="widget-title">Company</h4>
                 <ul className="footer-list  mb-sm-5 mb-md-0">
@@ -56,35 +56,26 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              {/* <div
+              <div
                                 className="footer-link-widget col  wow animate__animated animate__fadeInUp"
                                 data-wow-delay=".2s"
                             >
-                                <h4 className="widget-title ">Account</h4>
+                                <h4 className="widget-title ">Vendor</h4>
                                 <ul className="footer-list  mb-sm-5 mb-md-0">
                                     <li>
-                                        <a href="#">Sign In</a>
+                                        <a href="/vendors">Vendors</a>
                                     </li>
                                     <li>
-                                        <a href="#">View Cart</a>
+                                        <a href="/vendorslist">Vendorslist</a>
                                     </li>
                                     <li>
-                                        <a href="#">My Wishlist</a>
+                                        <a href="/vendorguide">Vendorguide</a>
                                     </li>
                                     <li>
-                                        <a href="#">Track My Order</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Help Ticket</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Shipping Details</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Compare products</a>
+                                        <a href="/vendordashboard">Vendordash</a>
                                     </li>
                                 </ul>
-                            </div> */}
+                            </div>
               <div
                 className="footer-link-widget col  wow animate__animated animate__fadeInUp"
                 data-wow-delay=".3s"
@@ -171,7 +162,7 @@ const Footer = () => {
               <div className="footer-bottom"></div>
             </div>
             <div className="">
-              <p className="font-sm mb-0">© 2024 - Sistaas</p>
+              <p className="font-sm mb-0" style={{color:"white"}}>© 2024 - Sistaas</p>
             </div>
             
             
