@@ -117,29 +117,7 @@ const Intro4 = () => {
           <i className="fi-rs-angle-right"></i>
         </span>
       </div> */}
-      <style jsx>{`
-    .row {
-        display: flex;
-        flex-direction: column;
-        width:90%;
-    }
-
-    @media (min-width: 768px) {
-        .row {
-            flex-direction: row;
-            align-items: center;
-        }
-
-        .single-hero-slider {
-            flex: 1;
-            margin-right: 450px; 
-        }
-
-        .py-1 {
-            flex: 1;
-        }
-    }
-`}</style>
+      
     </>
   );
 };
